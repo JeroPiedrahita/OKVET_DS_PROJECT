@@ -1,4 +1,215 @@
 {
+  "desparasitaciones.xlsx": {
+    "Sheet1": {
+      "nombre": "desparasitaciones.xlsx - Sheet1",
+      "forma": [
+        1000,
+        15
+      ],
+      "columnas": [
+        "id",
+        "pet_id",
+        "vet_id",
+        "user_id",
+        "deworming_at",
+        "product",
+        "dose",
+        "last_deworming",
+        "next_control_at",
+        "file",
+        "details",
+        "waiting_room_shift_id",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "pet_id": "int64",
+        "vet_id": "int64",
+        "user_id": "int64",
+        "deworming_at": "object",
+        "product": "object",
+        "dose": "object",
+        "last_deworming": "object",
+        "next_control_at": "object",
+        "file": "object",
+        "details": "object",
+        "waiting_room_shift_id": "float64",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "object"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "pet_id": 0,
+        "vet_id": 0,
+        "user_id": 0,
+        "deworming_at": 0,
+        "product": 0,
+        "dose": 0,
+        "last_deworming": 609,
+        "next_control_at": 226,
+        "file": 0,
+        "details": 659,
+        "waiting_room_shift_id": 1000,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 997
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "pet_id": 836,
+        "vet_id": 275,
+        "user_id": 327,
+        "deworming_at": 89,
+        "product": 531,
+        "dose": 361,
+        "last_deworming": 91,
+        "next_control_at": 99,
+        "file": 11,
+        "details": 288,
+        "waiting_room_shift_id": 0,
+        "created_at": 993,
+        "updated_at": 993,
+        "deleted_at": 3
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 396647.5,
+          "mediana": 396647.5,
+          "nulos": 0
+        },
+        "pet_id": {
+          "media": 1628790.099,
+          "mediana": 1931593.0,
+          "nulos": 0
+        },
+        "vet_id": {
+          "media": 7031.654,
+          "mediana": 5326.0,
+          "nulos": 0
+        },
+        "user_id": {
+          "media": 12641.416,
+          "mediana": 11697.0,
+          "nulos": 0
+        },
+        "waiting_room_shift_id": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 397147,
+          "1": 397146,
+          "2": 397145,
+          "3": 397144,
+          "4": 397143
+        },
+        "pet_id": {
+          "0": 1236276,
+          "1": 1876773,
+          "2": 1978095,
+          "3": 1978114,
+          "4": 1978056
+        },
+        "vet_id": {
+          "0": 3047,
+          "1": 10808,
+          "2": 16324,
+          "3": 5263,
+          "4": 10299
+        },
+        "user_id": {
+          "0": 4839,
+          "1": 9843,
+          "2": 23988,
+          "3": 8411,
+          "4": 18022
+        },
+        "deworming_at": {
+          "0": "2025-02-04",
+          "1": "2025-05-28",
+          "2": "2025-05-13",
+          "3": "2025-05-28",
+          "4": "2025-05-23"
+        },
+        "product": {
+          "0": "AFOXOPET DE 10 A 25 KG",
+          "1": "Drontal plus",
+          "2": "endogard",
+          "3": "VERMIC TOTAL",
+          "4": "FARMENZOL"
+        },
+        "dose": {
+          "0": "-",
+          "1": "1 tableta",
+          "2": "1/2",
+          "3": "1/4",
+          "4": "x 3d"
+        },
+        "last_deworming": {
+          "0": NaN,
+          "1": NaN,
+          "2": "2025-05-13",
+          "3": NaN,
+          "4": NaN
+        },
+        "next_control_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": "2025-05-29",
+          "3": "2025-06-18",
+          "4": "2025-06-18"
+        },
+        "file": {
+          "0": "[]",
+          "1": "[]",
+          "2": "[]",
+          "3": "[]",
+          "4": "[]"
+        },
+        "details": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": "Lo DESP con FARMENZOL el 23-24 y 25/5"
+        },
+        "waiting_room_shift_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "created_at": {
+          "0": "2025-05-28 14:52:34",
+          "1": "2025-05-28 10:49:35",
+          "2": "2025-05-28 11:48:56",
+          "3": "2025-05-28 12:47:25",
+          "4": "2025-05-28 11:47:10"
+        },
+        "updated_at": {
+          "0": "2025-05-28 14:52:34",
+          "1": "2025-05-28 10:49:35",
+          "2": "2025-05-28 11:48:56",
+          "3": "2025-05-28 12:47:25",
+          "4": "2025-05-28 11:47:10"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
   "vacunaciones.xlsx": {
     "Sheet1": {
       "nombre": "vacunaciones.xlsx - Sheet1",
@@ -193,361 +404,6 @@
           "2": "2025-05-28 11:47:41",
           "3": "2025-05-28 12:47:20",
           "4": "2025-05-28 12:46:42"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
-  "ordenes_items.xlsx": {
-    "Sheet1": {
-      "nombre": "ordenes_items.xlsx - Sheet1",
-      "forma": [
-        1000,
-        13
-      ],
-      "columnas": [
-        "id",
-        "order_id",
-        "commandable_type",
-        "commandable_id",
-        "type_other",
-        "quantity",
-        "level",
-        "notes",
-        "pending",
-        "user_id",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "order_id": "int64",
-        "commandable_type": "object",
-        "commandable_id": "float64",
-        "type_other": "object",
-        "quantity": "int64",
-        "level": "object",
-        "notes": "object",
-        "pending": "float64",
-        "user_id": "float64",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "float64"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "order_id": 0,
-        "commandable_type": 0,
-        "commandable_id": 7,
-        "type_other": 993,
-        "quantity": 0,
-        "level": 393,
-        "notes": 554,
-        "pending": 576,
-        "user_id": 783,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 1000
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "order_id": 765,
-        "commandable_type": 5,
-        "commandable_id": 311,
-        "type_other": 6,
-        "quantity": 6,
-        "level": 4,
-        "notes": 394,
-        "pending": 2,
-        "user_id": 13,
-        "created_at": 779,
-        "updated_at": 816,
-        "deleted_at": 0
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 106688.5,
-          "mediana": 106688.5,
-          "nulos": 0
-        },
-        "order_id": {
-          "media": 80043.949,
-          "mediana": 80050.0,
-          "nulos": 0
-        },
-        "commandable_id": {
-          "media": 1206341.081570997,
-          "mediana": 48772.0,
-          "nulos": 7
-        },
-        "quantity": {
-          "media": 1.041,
-          "mediana": 1.0,
-          "nulos": 0
-        },
-        "pending": {
-          "media": 0.4882075471698113,
-          "mediana": 0.0,
-          "nulos": 576
-        },
-        "user_id": {
-          "media": 17988.437788018433,
-          "mediana": 20238.0,
-          "nulos": 783
-        },
-        "deleted_at": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 107188,
-          "1": 107187,
-          "2": 107186,
-          "3": 107185,
-          "4": 107184
-        },
-        "order_id": {
-          "0": 80427,
-          "1": 80426,
-          "2": 80425,
-          "3": 80424,
-          "4": 80424
-        },
-        "commandable_type": {
-          "0": "App\\Models\\ImageType",
-          "1": "App\\Models\\LaboratoryTest",
-          "2": "App\\Models\\ImageType",
-          "3": "App\\Models\\ImageType",
-          "4": "App\\Models\\ImageType"
-        },
-        "commandable_id": {
-          "0": 2.0,
-          "1": 3422836.0,
-          "2": 1.0,
-          "3": 1.0,
-          "4": 2.0
-        },
-        "type_other": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "quantity": {
-          "0": 1,
-          "1": 1,
-          "2": 1,
-          "3": 1,
-          "4": 1
-        },
-        "level": {
-          "0": "optional",
-          "1": "urgent",
-          "2": "urgent",
-          "3": "priority",
-          "4": "priority"
-        },
-        "notes": {
-          "0": ".",
-          "1": "dx en otra clinica",
-          "2": "con dx de otra clinica",
-          "3": "Abdominal en ayuno (Inapetencia, anemia moderada)",
-          "4": "Cadera Control"
-        },
-        "pending": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": 1.0,
-          "4": 1.0
-        },
-        "user_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "created_at": {
-          "0": "2025-05-28 13:50:24",
-          "1": "2025-05-28 13:47:02",
-          "2": "2025-05-28 13:45:57",
-          "3": "2025-05-28 12:45:38",
-          "4": "2025-05-28 12:45:38"
-        },
-        "updated_at": {
-          "0": "2025-05-28 13:50:24",
-          "1": "2025-05-28 13:47:02",
-          "2": "2025-05-28 13:45:57",
-          "3": "2025-05-28 12:45:38",
-          "4": "2025-05-28 12:45:38"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
-  "ordenes_cabecera.xlsx": {
-    "Sheet1": {
-      "nombre": "ordenes_cabecera.xlsx - Sheet1",
-      "forma": [
-        1000,
-        10
-      ],
-      "columnas": [
-        "id",
-        "pet_id",
-        "user_id",
-        "vet_id",
-        "order_date",
-        "observation",
-        "waiting_room_shift_id",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "pet_id": "int64",
-        "user_id": "int64",
-        "vet_id": "int64",
-        "order_date": "object",
-        "observation": "object",
-        "waiting_room_shift_id": "float64",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "object"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "pet_id": 0,
-        "user_id": 0,
-        "vet_id": 0,
-        "order_date": 0,
-        "observation": 0,
-        "waiting_room_shift_id": 972,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 990
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "pet_id": 780,
-        "user_id": 270,
-        "vet_id": 156,
-        "order_date": 17,
-        "observation": 833,
-        "waiting_room_shift_id": 25,
-        "created_at": 1000,
-        "updated_at": 999,
-        "deleted_at": 10
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 79927.5,
-          "mediana": 79927.5,
-          "nulos": 0
-        },
-        "pet_id": {
-          "media": 1480602.259,
-          "mediana": 1719919.0,
-          "nulos": 0
-        },
-        "user_id": {
-          "media": 13523.227,
-          "mediana": 16171.5,
-          "nulos": 0
-        },
-        "vet_id": {
-          "media": 7718.78,
-          "mediana": 10287.0,
-          "nulos": 0
-        },
-        "waiting_room_shift_id": {
-          "media": 22837.89285714286,
-          "mediana": 22870.5,
-          "nulos": 972
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 80427,
-          "1": 80426,
-          "2": 80425,
-          "3": 80424,
-          "4": 80423
-        },
-        "pet_id": {
-          "0": 1977944,
-          "1": 1976650,
-          "2": 1976650,
-          "3": 1949535,
-          "4": 1632634
-        },
-        "user_id": {
-          "0": 22274,
-          "1": 22274,
-          "2": 22274,
-          "3": 20176,
-          "4": 20221
-        },
-        "vet_id": {
-          "0": 15053,
-          "1": 15053,
-          "2": 15053,
-          "3": 28,
-          "4": 13444
-        },
-        "order_date": {
-          "0": "2025-05-27",
-          "1": "2025-05-27",
-          "2": "2025-05-27",
-          "3": "2025-05-28",
-          "4": "2025-05-28"
-        },
-        "observation": {
-          "0": "leve dolor en metatarso en 1 falange",
-          "1": "posibles  prequirurgicos",
-          "2": ".",
-          "3": "Post quirúrgico excisión de cabeza y cuello femoral MPD",
-          "4": "DECAIDA"
-        },
-        "waiting_room_shift_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "created_at": {
-          "0": "2025-05-28 13:50:24",
-          "1": "2025-05-28 13:47:02",
-          "2": "2025-05-28 13:45:57",
-          "3": "2025-05-28 12:45:38",
-          "4": "2025-05-28 12:28:15"
-        },
-        "updated_at": {
-          "0": "2025-05-28 13:50:24",
-          "1": "2025-05-28 13:47:02",
-          "2": "2025-05-28 13:46:07",
-          "3": "2025-05-28 12:45:38",
-          "4": "2025-05-28 12:28:15"
         },
         "deleted_at": {
           "0": NaN,
@@ -764,23 +620,22 @@
       }
     }
   },
-  "remisiones.xlsx": {
+  "examenes_cabecera.xlsx": {
     "Sheet1": {
-      "nombre": "remisiones.xlsx - Sheet1",
+      "nombre": "examenes_cabecera.xlsx - Sheet1",
       "forma": [
         1000,
-        14
+        13
       ],
       "columnas": [
         "id",
         "pet_id",
-        "vet_id",
         "user_id",
-        "profesional_id",
-        "referral_at",
-        "destination",
-        "reason",
-        "observations",
+        "laboratories_id",
+        "laboratories_type",
+        "vet_id",
+        "exam_date",
+        "diagnosis",
         "dx",
         "waiting_room_shift_id",
         "created_at",
@@ -790,14 +645,13 @@
       "tipos_datos": {
         "id": "int64",
         "pet_id": "int64",
-        "vet_id": "int64",
         "user_id": "int64",
-        "profesional_id": "int64",
-        "referral_at": "object",
-        "destination": "object",
-        "reason": "object",
-        "observations": "object",
-        "dx": "float64",
+        "laboratories_id": "float64",
+        "laboratories_type": "float64",
+        "vet_id": "int64",
+        "exam_date": "object",
+        "diagnosis": "object",
+        "dx": "object",
         "waiting_room_shift_id": "float64",
         "created_at": "object",
         "updated_at": "object",
@@ -806,135 +660,126 @@
       "valores_nulos": {
         "id": 0,
         "pet_id": 0,
-        "vet_id": 0,
         "user_id": 0,
-        "profesional_id": 0,
-        "referral_at": 0,
-        "destination": 4,
-        "reason": 0,
-        "observations": 149,
-        "dx": 1000,
-        "waiting_room_shift_id": 998,
+        "laboratories_id": 1000,
+        "laboratories_type": 1000,
+        "vet_id": 0,
+        "exam_date": 0,
+        "diagnosis": 46,
+        "dx": 999,
+        "waiting_room_shift_id": 1000,
         "created_at": 0,
         "updated_at": 0,
-        "deleted_at": 983
+        "deleted_at": 993
       },
       "valores_unicos": {
         "id": 1000,
-        "pet_id": 929,
-        "vet_id": 401,
-        "user_id": 506,
-        "profesional_id": 501,
-        "referral_at": 955,
-        "destination": 691,
-        "reason": 944,
-        "observations": 812,
-        "dx": 0,
-        "waiting_room_shift_id": 2,
-        "created_at": 1000,
-        "updated_at": 1000,
-        "deleted_at": 17
+        "pet_id": 877,
+        "user_id": 370,
+        "laboratories_id": 0,
+        "laboratories_type": 0,
+        "vet_id": 273,
+        "exam_date": 63,
+        "diagnosis": 634,
+        "dx": 1,
+        "waiting_room_shift_id": 0,
+        "created_at": 996,
+        "updated_at": 995,
+        "deleted_at": 7
       },
       "estadisticas_tendencia_central": {
         "id": {
-          "media": 59507.5,
-          "mediana": 59507.5,
+          "media": 572754.5,
+          "mediana": 572754.5,
           "nulos": 0
         },
         "pet_id": {
-          "media": 1611082.049,
-          "mediana": 1932825.0,
-          "nulos": 0
-        },
-        "vet_id": {
-          "media": 6013.449,
-          "mediana": 5015.0,
+          "media": 1555679.816,
+          "mediana": 1923619.0,
           "nulos": 0
         },
         "user_id": {
-          "media": 11441.525,
-          "mediana": 11790.0,
+          "media": 13775.002,
+          "mediana": 16340.0,
           "nulos": 0
         },
-        "profesional_id": {
-          "media": 11490.12,
-          "mediana": 11790.0,
-          "nulos": 0
-        },
-        "dx": {
+        "laboratories_id": {
           "media": NaN,
           "mediana": NaN,
           "nulos": 1000
         },
+        "laboratories_type": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        },
+        "vet_id": {
+          "media": 6886.099,
+          "mediana": 6240.0,
+          "nulos": 0
+        },
         "waiting_room_shift_id": {
-          "media": 22435.0,
-          "mediana": 22435.0,
-          "nulos": 998
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
         }
       },
       "ejemplo": {
         "id": {
-          "0": 60007,
-          "1": 60006,
-          "2": 60005,
-          "3": 60004,
-          "4": 60003
+          "0": 573254,
+          "1": 573253,
+          "2": 573252,
+          "3": 573251,
+          "4": 573250
         },
         "pet_id": {
-          "0": 1746143,
-          "1": 1288443,
-          "2": 1973467,
-          "3": 1978003,
-          "4": 1896381
-        },
-        "vet_id": {
-          "0": 3665,
-          "1": 3030,
-          "2": 16963,
-          "3": 11253,
-          "4": 2680
+          "0": 1808561,
+          "1": 1615953,
+          "2": 1978025,
+          "3": 1049582,
+          "4": 1946027
         },
         "user_id": {
-          "0": 2167,
-          "1": 2821,
-          "2": 24896,
-          "3": 17005,
-          "4": 4260
+          "0": 20238,
+          "1": 20238,
+          "2": 15087,
+          "3": 4962,
+          "4": 11242
         },
-        "profesional_id": {
-          "0": 16846,
-          "1": 2821,
-          "2": 644,
-          "3": 17005,
-          "4": 4260
+        "laboratories_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
         },
-        "referral_at": {
-          "0": "2025-05-28 13:00:00",
-          "1": "2025-05-28 12:28:00",
-          "2": "2025-05-28 12:30:00",
-          "3": "2025-05-28 12:10:00",
-          "4": "2025-05-28 12:07:00"
+        "laboratories_type": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
         },
-        "destination": {
-          "0": "VETERINARIA LA ESTRELLA",
-          "1": "pets",
-          "2": "CLINICA VETERINARIA",
-          "3": "ANIMAL VETER",
-          "4": "Clinica Veterinaria San Rafael"
+        "vet_id": {
+          "0": 13444,
+          "1": 13444,
+          "2": 9856,
+          "3": 3132,
+          "4": 1141
         },
-        "reason": {
-          "0": "PACIENTE REMITIDA A CONSULTA ESPECIALIZADA POR DERMATOLOGIA",
-          "1": "Se remite paciente para manejo intrahospitalario y radiografía de abdomen. \n\nDx. DEFINITIVO: \nFecaloma\n\nLa paciente se encuentra clínicamente estable, sin embargo, presenta emesis (2 episodios dia aprox), ptialismo, abdomen distendido, tenesmo fecal, dolor moderado a severo palpación abdominal caudal derecha y presencia de materia fecal seca a la palpación rectal.",
-          "2": "ECOGRAFIA ABDOMINAL / CISTITIS IDIOPATICA - UROLITIASIS -------",
-          "3": "Se remite paciente para endoscopia por cuerpo extraño a nivel gastrico.",
-          "4": "- se remite paciente para evaluación y programación de proceso quirúrgico por neoplasia en glándula mamaria caudal"
+        "exam_date": {
+          "0": "2025-05-28",
+          "1": "2025-05-28",
+          "2": "2025-05-28",
+          "3": "2025-05-28",
+          "4": "2025-05-27"
         },
-        "observations": {
-          "0": "La Estrella Clínica Veterinaria\nDirección: Barrio la estrella, Cra. 24b #61 A - 37, Manizales, Caldas\nTeléfono: 315 2308233",
-          "1": "Se envía reporte ecográfico a la tutora, en el que se evidencia abundante contenido en colon sugerente de constipación/estreñimiento.",
-          "2": "------------",
-          "3": "Se envian muestras de sangre para prequirurgicos e imagenes ecograficas a centro medico receptor.",
-          "4": "- paciente con neoproliferación mamaria caudal \n- cita con el Dr Rafael Velosa"
+        "diagnosis": {
+          "0": "HISTOPATOLOGIA",
+          "1": "HISTOPATOLOGIA",
+          "2": ".",
+          "3": "Seguimiento",
+          "4": "EXAMENES CONTROL PRE ANESTESICOS RESONANCIA.\nHALLAZGOS:\nCH: LEUCOPENIA, TROMBOCITOPENIA (LEVE).\nBIOQUIMICAS: ALT ELEVADA 315.9"
         },
         "dx": {
           "0": NaN,
@@ -951,18 +796,18 @@
           "4": NaN
         },
         "created_at": {
-          "0": "2025-05-28 13:01:50",
-          "1": "2025-05-28 12:44:46",
-          "2": "2025-05-28 12:33:58",
-          "3": "2025-05-28 12:12:43",
-          "4": "2025-05-28 12:11:19"
+          "0": "2025-05-28 12:55:49",
+          "1": "2025-05-28 12:54:28",
+          "2": "2025-05-28 12:54:02",
+          "3": "2025-05-28 11:53:55",
+          "4": "2025-05-28 12:53:30"
         },
         "updated_at": {
-          "0": "2025-05-28 13:01:50",
-          "1": "2025-05-28 12:44:46",
-          "2": "2025-05-28 12:33:58",
-          "3": "2025-05-28 12:12:43",
-          "4": "2025-05-28 12:11:19"
+          "0": "2025-05-28 12:55:49",
+          "1": "2025-05-28 12:54:28",
+          "2": "2025-05-28 12:54:02",
+          "3": "2025-05-28 11:53:55",
+          "4": "2025-05-28 12:53:30"
         },
         "deleted_at": {
           "0": NaN,
@@ -974,156 +819,1021 @@
       }
     }
   },
-  "examenes_items.xlsx": {
+  "seguimientos.xlsx": {
     "Sheet1": {
-      "nombre": "examenes_items.xlsx - Sheet1",
+      "nombre": "seguimientos.xlsx - Sheet1",
       "forma": [
         1000,
-        10
+        32
       ],
       "columnas": [
         "id",
-        "laboratory_id",
+        "pet_id",
+        "vet_id",
         "user_id",
-        "laboratory_test_id",
-        "order_item_id",
-        "quantity",
+        "monitorable_id",
+        "monitorable_type",
+        "monitoring_at",
+        "type",
+        "details",
+        "next_control_at",
+        "temperature",
+        "temperature_unit",
+        "weight",
+        "weight_unit",
+        "bcs",
+        "crt",
+        "heart_rate",
+        "breathing_rate",
+        "reflexes",
+        "heartbeat",
+        "saturation",
+        "blood_pressure",
+        "mucous_membrane",
+        "glycemia",
+        "palpation",
+        "observations",
         "file",
+        "dx",
+        "waiting_room_shift_id",
         "created_at",
         "updated_at",
         "deleted_at"
       ],
       "tipos_datos": {
         "id": "int64",
-        "laboratory_id": "int64",
+        "pet_id": "int64",
+        "vet_id": "int64",
         "user_id": "int64",
-        "laboratory_test_id": "int64",
-        "order_item_id": "float64",
-        "quantity": "int64",
+        "monitorable_id": "float64",
+        "monitorable_type": "object",
+        "monitoring_at": "object",
+        "type": "float64",
+        "details": "object",
+        "next_control_at": "object",
+        "temperature": "float64",
+        "temperature_unit": "object",
+        "weight": "float64",
+        "weight_unit": "object",
+        "bcs": "object",
+        "crt": "object",
+        "heart_rate": "object",
+        "breathing_rate": "object",
+        "reflexes": "object",
+        "heartbeat": "object",
+        "saturation": "object",
+        "blood_pressure": "object",
+        "mucous_membrane": "object",
+        "glycemia": "object",
+        "palpation": "object",
+        "observations": "object",
         "file": "object",
+        "dx": "object",
+        "waiting_room_shift_id": "float64",
         "created_at": "object",
         "updated_at": "object",
         "deleted_at": "object"
       },
       "valores_nulos": {
         "id": 0,
-        "laboratory_id": 0,
+        "pet_id": 0,
+        "vet_id": 0,
         "user_id": 0,
-        "laboratory_test_id": 0,
-        "order_item_id": 1000,
-        "quantity": 0,
-        "file": 133,
+        "monitorable_id": 578,
+        "monitorable_type": 578,
+        "monitoring_at": 0,
+        "type": 478,
+        "details": 0,
+        "next_control_at": 962,
+        "temperature": 873,
+        "temperature_unit": 873,
+        "weight": 884,
+        "weight_unit": 884,
+        "bcs": 890,
+        "crt": 884,
+        "heart_rate": 882,
+        "breathing_rate": 883,
+        "reflexes": 928,
+        "heartbeat": 919,
+        "saturation": 961,
+        "blood_pressure": 953,
+        "mucous_membrane": 884,
+        "glycemia": 977,
+        "palpation": 957,
+        "observations": 971,
+        "file": 846,
+        "dx": 997,
+        "waiting_room_shift_id": 994,
         "created_at": 0,
         "updated_at": 0,
-        "deleted_at": 998
+        "deleted_at": 987
       },
       "valores_unicos": {
         "id": 1000,
-        "laboratory_id": 795,
-        "user_id": 367,
-        "laboratory_test_id": 580,
-        "order_item_id": 0,
-        "quantity": 1,
-        "file": 867,
-        "created_at": 805,
-        "updated_at": 811,
-        "deleted_at": 2
+        "pet_id": 828,
+        "vet_id": 193,
+        "user_id": 328,
+        "monitorable_id": 377,
+        "monitorable_type": 10,
+        "monitoring_at": 702,
+        "type": 7,
+        "details": 896,
+        "next_control_at": 15,
+        "temperature": 28,
+        "temperature_unit": 2,
+        "weight": 84,
+        "weight_unit": 2,
+        "bcs": 15,
+        "crt": 20,
+        "heart_rate": 66,
+        "breathing_rate": 48,
+        "reflexes": 24,
+        "heartbeat": 18,
+        "saturation": 13,
+        "blood_pressure": 39,
+        "mucous_membrane": 5,
+        "glycemia": 15,
+        "palpation": 27,
+        "observations": 29,
+        "file": 154,
+        "dx": 3,
+        "waiting_room_shift_id": 6,
+        "created_at": 994,
+        "updated_at": 992,
+        "deleted_at": 13
       },
       "estadisticas_tendencia_central": {
         "id": {
-          "media": 708429.5,
-          "mediana": 708429.5,
+          "media": 1370479.5,
+          "mediana": 1370479.5,
           "nulos": 0
         },
-        "laboratory_id": {
-          "media": 572859.806,
-          "mediana": 572883.0,
+        "pet_id": {
+          "media": 1531716.793,
+          "mediana": 1885851.5,
+          "nulos": 0
+        },
+        "vet_id": {
+          "media": 5130.764,
+          "mediana": 3209.0,
           "nulos": 0
         },
         "user_id": {
-          "media": 13096.752,
-          "mediana": 15087.0,
+          "media": 13234.539,
+          "mediana": 14061.0,
           "nulos": 0
         },
-        "laboratory_test_id": {
-          "media": 1801168.622,
-          "mediana": 2053119.5,
-          "nulos": 0
+        "monitorable_id": {
+          "media": 402835.836492891,
+          "mediana": 222496.5,
+          "nulos": 578
         },
-        "order_item_id": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
+        "type": {
+          "media": 3.8544061302681993,
+          "mediana": 4.0,
+          "nulos": 478
         },
-        "quantity": {
-          "media": 1.0,
-          "mediana": 1.0,
-          "nulos": 0
+        "temperature": {
+          "media": 38.069055118110235,
+          "mediana": 38.5,
+          "nulos": 873
+        },
+        "weight": {
+          "media": 34.38043103448276,
+          "mediana": 7.8,
+          "nulos": 884
+        },
+        "waiting_room_shift_id": {
+          "media": 23047.666666666668,
+          "mediana": 23048.5,
+          "nulos": 994
         }
       },
       "ejemplo": {
         "id": {
-          "0": 708929,
-          "1": 708928,
-          "2": 708927,
-          "3": 708926,
-          "4": 708925
+          "0": 1370979,
+          "1": 1370978,
+          "2": 1370977,
+          "3": 1370976,
+          "4": 1370975
         },
-        "laboratory_id": {
-          "0": 573254,
-          "1": 573253,
-          "2": 573252,
-          "3": 573251,
-          "4": 573250
+        "pet_id": {
+          "0": 1629921,
+          "1": 1958289,
+          "2": 234371,
+          "3": 148522,
+          "4": 1964136
+        },
+        "vet_id": {
+          "0": 6034,
+          "1": 71,
+          "2": 975,
+          "3": 5251,
+          "4": 8374
         },
         "user_id": {
-          "0": 20299,
-          "1": 20227,
-          "2": 15087,
-          "3": 4962,
-          "4": 11242
+          "0": 9642,
+          "1": 2264,
+          "2": 9304,
+          "3": 3603,
+          "4": 21755
         },
-        "laboratory_test_id": {
-          "0": 2857894,
-          "1": 2857894,
-          "2": 2016160,
-          "3": 650836,
-          "4": 1997077
-        },
-        "order_item_id": {
+        "monitorable_id": {
           "0": NaN,
           "1": NaN,
           "2": NaN,
           "3": NaN,
           "4": NaN
         },
-        "quantity": {
+        "monitorable_type": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "monitoring_at": {
+          "0": "2025-05-28 13:01:00",
+          "1": "2025-05-28 13:02:00",
+          "2": "2025-05-28 13:00:00",
+          "3": "2025-05-28 13:00:00",
+          "4": "2025-05-28 13:01:00"
+        },
+        "type": {
+          "0": NaN,
+          "1": NaN,
+          "2": 7.0,
+          "3": NaN,
+          "4": NaN
+        },
+        "details": {
+          "0": "Paciente ingresa para revisión, reportan  que la ven mejor, con las patitas, esta mejor, pero cundo para e tratamiento, se vuelve a rascar  y esta defecando como con un moco y ayer vomito. \n\n_El ultimo baño fue el lunes. \n\nPeso: 14.8kg \n\nDAC/",
+          "1": "Paciente no asiste a revision",
+          "2": "Enteritis",
+          "3": "S. ELLA VENIA BIEN PERO OTRA VEZ ESTA MOQUIANDO, ELLA HACE COMO PARA SACAR ALGO. \nO. PACIENTE ALERTA, DINAMICA, MUCOSAS ROSADAS Y HUMEDAS, REFLEJO TUSIGENO POSITIVO Y PALMOPERCUTOR NEGATIVO \nSIN SONIDOS CONGESTIVOS A LA AUSCULTACION DEL TORAX. \nI. TRAQUEITIS, CALCIFICACION TRAQUEAL/ESTENOSIS TRAQUEAL \nP. SE ENVIA TERAPIA COMPLEMENTARIA, SE INDICA TRAER A REVISION EN 5 DIAS, EN CASO DE QUE NO HAYA RESOLUCION DE LOS SINTOMAS SE RECOMIENDA REALIZAR RADIOGRAFIA CERVICOTORACICA.",
+          "4": "SCSXCS"
+        },
+        "next_control_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": "2025-06-02",
+          "4": NaN
+        },
+        "temperature": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "temperature_unit": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "weight": {
+          "0": NaN,
+          "1": NaN,
+          "2": 13.4,
+          "3": NaN,
+          "4": NaN
+        },
+        "weight_unit": {
+          "0": NaN,
+          "1": NaN,
+          "2": "kg",
+          "3": NaN,
+          "4": NaN
+        },
+        "bcs": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "crt": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "heart_rate": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "breathing_rate": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "reflexes": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "heartbeat": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "saturation": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "blood_pressure": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "mucous_membrane": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "glycemia": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "palpation": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "observations": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "file": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "dx": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "waiting_room_shift_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "created_at": {
+          "0": "2025-05-28 13:04:05",
+          "1": "2025-05-28 13:03:11",
+          "2": "2025-05-28 13:02:05",
+          "3": "2025-05-28 13:02:01",
+          "4": "2025-05-28 13:01:41"
+        },
+        "updated_at": {
+          "0": "2025-05-28 13:04:05",
+          "1": "2025-05-28 13:03:11",
+          "2": "2025-05-28 13:02:05",
+          "3": "2025-05-28 13:02:01",
+          "4": "2025-05-28 13:01:41"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "ordenes_cabecera.xlsx": {
+    "Sheet1": {
+      "nombre": "ordenes_cabecera.xlsx - Sheet1",
+      "forma": [
+        1000,
+        10
+      ],
+      "columnas": [
+        "id",
+        "pet_id",
+        "user_id",
+        "vet_id",
+        "order_date",
+        "observation",
+        "waiting_room_shift_id",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "pet_id": "int64",
+        "user_id": "int64",
+        "vet_id": "int64",
+        "order_date": "object",
+        "observation": "object",
+        "waiting_room_shift_id": "float64",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "object"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "pet_id": 0,
+        "user_id": 0,
+        "vet_id": 0,
+        "order_date": 0,
+        "observation": 0,
+        "waiting_room_shift_id": 972,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 990
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "pet_id": 780,
+        "user_id": 270,
+        "vet_id": 156,
+        "order_date": 17,
+        "observation": 833,
+        "waiting_room_shift_id": 25,
+        "created_at": 1000,
+        "updated_at": 999,
+        "deleted_at": 10
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 79927.5,
+          "mediana": 79927.5,
+          "nulos": 0
+        },
+        "pet_id": {
+          "media": 1480602.259,
+          "mediana": 1719919.0,
+          "nulos": 0
+        },
+        "user_id": {
+          "media": 13523.227,
+          "mediana": 16171.5,
+          "nulos": 0
+        },
+        "vet_id": {
+          "media": 7718.78,
+          "mediana": 10287.0,
+          "nulos": 0
+        },
+        "waiting_room_shift_id": {
+          "media": 22837.89285714286,
+          "mediana": 22870.5,
+          "nulos": 972
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 80427,
+          "1": 80426,
+          "2": 80425,
+          "3": 80424,
+          "4": 80423
+        },
+        "pet_id": {
+          "0": 1977944,
+          "1": 1976650,
+          "2": 1976650,
+          "3": 1949535,
+          "4": 1632634
+        },
+        "user_id": {
+          "0": 22274,
+          "1": 22274,
+          "2": 22274,
+          "3": 20176,
+          "4": 20221
+        },
+        "vet_id": {
+          "0": 15053,
+          "1": 15053,
+          "2": 15053,
+          "3": 28,
+          "4": 13444
+        },
+        "order_date": {
+          "0": "2025-05-27",
+          "1": "2025-05-27",
+          "2": "2025-05-27",
+          "3": "2025-05-28",
+          "4": "2025-05-28"
+        },
+        "observation": {
+          "0": "leve dolor en metatarso en 1 falange",
+          "1": "posibles  prequirurgicos",
+          "2": ".",
+          "3": "Post quirúrgico excisión de cabeza y cuello femoral MPD",
+          "4": "DECAIDA"
+        },
+        "waiting_room_shift_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "created_at": {
+          "0": "2025-05-28 13:50:24",
+          "1": "2025-05-28 13:47:02",
+          "2": "2025-05-28 13:45:57",
+          "3": "2025-05-28 12:45:38",
+          "4": "2025-05-28 12:28:15"
+        },
+        "updated_at": {
+          "0": "2025-05-28 13:50:24",
+          "1": "2025-05-28 13:47:02",
+          "2": "2025-05-28 13:46:07",
+          "3": "2025-05-28 12:45:38",
+          "4": "2025-05-28 12:28:15"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "documentos.xlsx": {
+    "Sheet1": {
+      "nombre": "documentos.xlsx - Sheet1",
+      "forma": [
+        1000,
+        16
+      ],
+      "columnas": [
+        "id",
+        "vet_id",
+        "pet_id",
+        "user_id",
+        "firebase_token_id",
+        "doc_format_type_id",
+        "documented_id",
+        "documented_type",
+        "documented_at",
+        "name",
+        "required_signature",
+        "signature_at",
+        "waiting_room_shift_id",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "vet_id": "int64",
+        "pet_id": "int64",
+        "user_id": "int64",
+        "firebase_token_id": "float64",
+        "doc_format_type_id": "int64",
+        "documented_id": "float64",
+        "documented_type": "object",
+        "documented_at": "object",
+        "name": "object",
+        "required_signature": "int64",
+        "signature_at": "object",
+        "waiting_room_shift_id": "float64",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "object"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "vet_id": 0,
+        "pet_id": 0,
+        "user_id": 0,
+        "firebase_token_id": 986,
+        "doc_format_type_id": 0,
+        "documented_id": 940,
+        "documented_type": 940,
+        "documented_at": 0,
+        "name": 0,
+        "required_signature": 0,
+        "signature_at": 361,
+        "waiting_room_shift_id": 996,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 961
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "vet_id": 168,
+        "pet_id": 799,
+        "user_id": 302,
+        "firebase_token_id": 11,
+        "doc_format_type_id": 337,
+        "documented_id": 60,
+        "documented_type": 5,
+        "documented_at": 995,
+        "name": 242,
+        "required_signature": 2,
+        "signature_at": 639,
+        "waiting_room_shift_id": 4,
+        "created_at": 995,
+        "updated_at": 998,
+        "deleted_at": 39
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 224425.5,
+          "mediana": 224425.5,
+          "nulos": 0
+        },
+        "vet_id": {
+          "media": 5686.814,
+          "mediana": 4476.5,
+          "nulos": 0
+        },
+        "pet_id": {
+          "media": 1599818.572,
+          "mediana": 1947833.0,
+          "nulos": 0
+        },
+        "user_id": {
+          "media": 12904.155,
+          "mediana": 13510.0,
+          "nulos": 0
+        },
+        "firebase_token_id": {
+          "media": 112874.0,
+          "mediana": 117195.0,
+          "nulos": 986
+        },
+        "doc_format_type_id": {
+          "media": 25441.433,
+          "mediana": 26459.0,
+          "nulos": 0
+        },
+        "documented_id": {
+          "media": 360617.01666666666,
+          "mediana": 260168.0,
+          "nulos": 940
+        },
+        "required_signature": {
+          "media": 0.943,
+          "mediana": 1.0,
+          "nulos": 0
+        },
+        "waiting_room_shift_id": {
+          "media": 23019.25,
+          "mediana": 23023.5,
+          "nulos": 996
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 224925,
+          "1": 224924,
+          "2": 224923,
+          "3": 224922,
+          "4": 224921
+        },
+        "vet_id": {
+          "0": 2851,
+          "1": 2773,
+          "2": 8379,
+          "3": 2640,
+          "4": 2640
+        },
+        "pet_id": {
+          "0": 1613171,
+          "1": 1704034,
+          "2": 1604238,
+          "3": 1978001,
+          "4": 1977939
+        },
+        "user_id": {
+          "0": 21558,
+          "1": 9837,
+          "2": 13072,
+          "3": 9704,
+          "4": 9704
+        },
+        "firebase_token_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "doc_format_type_id": {
+          "0": 43461,
+          "1": 18312,
+          "2": 25372,
+          "3": 7876,
+          "4": 7876
+        },
+        "documented_id": {
+          "0": 260407.0,
+          "1": 260406.0,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "documented_type": {
+          "0": "App\\Models\\Spa",
+          "1": "App\\Models\\Spa",
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "documented_at": {
+          "0": "2025-05-28 12:57:05",
+          "1": "2025-05-28 12:57:03",
+          "2": "2025-05-28 12:56:05",
+          "3": "2025-05-28 12:55:20",
+          "4": "2025-05-28 12:54:16"
+        },
+        "name": {
+          "0": "CONSENTIMIENTO PELUQUERIA",
+          "1": "AUTORIZACION PELUQUERIA",
+          "2": "Consentimiento informado",
+          "3": "CONSENTIMIENTO INFORMADO DE SERVICIO DE PELUQUERÍA",
+          "4": "CONSENTIMIENTO INFORMADO DE SERVICIO DE PELUQUERÍA"
+        },
+        "required_signature": {
           "0": 1,
           "1": 1,
           "2": 1,
           "3": 1,
           "4": 1
         },
-        "file": {
-          "0": "{\"name\": \"MAYA HISTOPATOLOGIA SURISADDAI ARDILA.pdf\", \"path\": \"VetFiles/13444/LaboratoryExam/QmbOx9uH8n75pXO4BNPM6bJrWpGdMRAPzrQT6lWp.pdf\"}",
-          "1": "{\"name\": \"KEILY HISTOPATOLOGIA ALEJANDRO OROZCO.pdf\", \"path\": \"VetFiles/13444/LaboratoryExam/nz8uxDnENnsfmsSr8uIHdAQH0oCJF8ufOBloQCdd.pdf\"}",
-          "2": "{\"name\": \"IMG-20250528-WA0033.jpg\", \"path\": \"VetFiles/9856/LaboratoryExam/ntU5QkJA9ibOS75H9bbRmPMm0v2noRZHQGjU39X4.jpg\"}",
-          "3": "{\"name\": \"GINA-MONTIEL-2025-05-28-0953.pdf\", \"path\": \"VetFiles/3132/LaboratoryExam/jrv9x5QJMG5p33SDFmgBOCngj0DzJvy08TVjhXCV.pdf\"}",
-          "4": "{\"name\": \"QUIMICA SANGUINEA CANINO YAKO LOBO 270525.pdf\", \"path\": \"VetFiles/1141/LaboratoryExam/08Pgz4hrvdrO3C15sGAA72jmgOUaj4LIqmG5Lb1P.pdf\"}"
+        "signature_at": {
+          "0": "2025-05-28 12:58:24",
+          "1": "2025-05-28 12:57:30",
+          "2": NaN,
+          "3": "2025-05-28 13:04:08",
+          "4": NaN
+        },
+        "waiting_room_shift_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
         },
         "created_at": {
-          "0": "2025-05-28 12:55:49",
-          "1": "2025-05-28 12:54:28",
-          "2": "2025-05-28 12:54:02",
-          "3": "2025-05-28 11:53:55",
-          "4": "2025-05-28 12:53:30"
+          "0": "2025-05-28 12:57:05",
+          "1": "2025-05-28 12:57:03",
+          "2": "2025-05-28 12:56:05",
+          "3": "2025-05-28 12:55:20",
+          "4": "2025-05-28 12:54:16"
         },
         "updated_at": {
-          "0": "2025-05-28 12:55:49",
-          "1": "2025-05-28 12:54:28",
-          "2": "2025-05-28 12:54:02",
-          "3": "2025-05-28 11:53:55",
-          "4": "2025-05-28 12:53:30"
+          "0": "2025-05-28 12:58:24",
+          "1": "2025-05-28 12:57:30",
+          "2": "2025-05-28 12:56:05",
+          "3": "2025-05-28 13:04:08",
+          "4": "2025-05-28 12:54:16"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "formulas_cabecera.xlsx": {
+    "Sheet1": {
+      "nombre": "formulas_cabecera.xlsx - Sheet1",
+      "forma": [
+        1000,
+        14
+      ],
+      "columnas": [
+        "id",
+        "pet_id",
+        "vet_id",
+        "user_id",
+        "prescription_at",
+        "diagnosis",
+        "raw_prescription",
+        "prescription",
+        "details",
+        "dx",
+        "waiting_room_shift_id",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "pet_id": "int64",
+        "vet_id": "int64",
+        "user_id": "int64",
+        "prescription_at": "object",
+        "diagnosis": "object",
+        "raw_prescription": "float64",
+        "prescription": "float64",
+        "details": "object",
+        "dx": "object",
+        "waiting_room_shift_id": "float64",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "object"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "pet_id": 0,
+        "vet_id": 0,
+        "user_id": 0,
+        "prescription_at": 0,
+        "diagnosis": 0,
+        "raw_prescription": 1000,
+        "prescription": 1000,
+        "details": 1,
+        "dx": 992,
+        "waiting_room_shift_id": 993,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 993
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "pet_id": 979,
+        "vet_id": 458,
+        "user_id": 605,
+        "prescription_at": 9,
+        "diagnosis": 908,
+        "raw_prescription": 0,
+        "prescription": 0,
+        "details": 942,
+        "dx": 7,
+        "waiting_room_shift_id": 5,
+        "created_at": 977,
+        "updated_at": 979,
+        "deleted_at": 7
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 1412537.5,
+          "mediana": 1412537.5,
+          "nulos": 0
+        },
+        "pet_id": {
+          "media": 1612937.473,
+          "mediana": 1958516.0,
+          "nulos": 0
+        },
+        "vet_id": {
+          "media": 6654.925,
+          "mediana": 5804.0,
+          "nulos": 0
+        },
+        "user_id": {
+          "media": 12066.172,
+          "mediana": 12586.0,
+          "nulos": 0
+        },
+        "raw_prescription": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        },
+        "prescription": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        },
+        "waiting_room_shift_id": {
+          "media": 23039.285714285714,
+          "mediana": 23044.0,
+          "nulos": 993
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 1413037,
+          "1": 1413036,
+          "2": 1413035,
+          "3": 1413034,
+          "4": 1413033
+        },
+        "pet_id": {
+          "0": 1977722,
+          "1": 1977392,
+          "2": 1977396,
+          "3": 1732346,
+          "4": 1978058
+        },
+        "vet_id": {
+          "0": 8379,
+          "1": 12435,
+          "2": 1223,
+          "3": 5850,
+          "4": 15608
+        },
+        "user_id": {
+          "0": 13072,
+          "1": 11081,
+          "2": 676,
+          "3": 9314,
+          "4": 23660
+        },
+        "prescription_at": {
+          "0": "2025-05-28",
+          "1": "2025-05-28",
+          "2": "2025-05-28",
+          "3": "2025-05-28",
+          "4": "2025-05-28"
+        },
+        "diagnosis": {
+          "0": "- OVARIOHISTERECTOMIA",
+          "1": "suturacion",
+          "2": "PACIENTE POSTQUIRURGICO DE OVH ELECTIVA",
+          "3": "Disbiosis",
+          "4": "TRAUMA POR GOLPE"
+        },
+        "raw_prescription": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "prescription": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "details": {
+          "0": "- CONTROL EL DIA 4/06/2025 A LAS 10.30AM\n- RETIRO DE PUNTOS EL DIA 11/05/2025 A LAS 10:30 AM (SEGUN LA EVOLUCION DE LA PACIENTE).\n- USO DE BODY QUIRURGICO CONSTANTE POR 15 DIAS.\n- OFRECER DIETA BLANDA POR 3 DIAS (LATA DE HILLS A/D O ROYAL CANIN SHIH-TZU).\n- SEGUN LOS RESULTADOS DEL EXAMEN SANGUINEO SE COMPLEMENTARA LA FORMULA MEDICA.",
+          "1": "tener en un lugara cerrado \ntener con collar isabelino",
+          "2": "- MEDICACIÓN APARTIR DE MAÑANA.\n- USO DE COLLAR ISABELINO OBLIGATORIO Y PERMANENTE HASTA EL RETIRO DE PUNTOS.\n- RETIRO DE PUNTOS EN 10 DÍAS.\n\n- Puede presentarse 1 o 2 episodios de vómito durante las primeras 24 horas postquirúrgicas que pueden considerarse normales por efecto residual de anestesia.\n- El paciente debe permanecer calientito, recuerde que la anestesia baja la temperatura corporal y la capacidad de regularla.\n- No obligue a comer/recibir agua durante las primeras 12 horas postquirúrgicas.\n- Ante cualquier eventualidad comunicarse o acudir con la clínica de inmediato.\n- CITA DE CONTROL DENTRO DE 3 DÍAS.",
+          "3": NaN,
+          "4": "SE RECOMIENDA TRAER A REVISIÓN EL DÍA SÁBADO 2-10PM\nSE RECOMIENDA DISMINUIR MOVIMIENTOS BRUSCOS"
+        },
+        "dx": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "waiting_room_shift_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "created_at": {
+          "0": "2025-05-28 12:49:54",
+          "1": "2025-05-28 12:49:54",
+          "2": "2025-05-28 12:49:21",
+          "3": "2025-05-28 12:49:08",
+          "4": "2025-05-28 12:49:03"
+        },
+        "updated_at": {
+          "0": "2025-05-28 12:49:54",
+          "1": "2025-05-28 12:49:54",
+          "2": "2025-05-28 12:49:21",
+          "3": "2025-05-28 12:49:08",
+          "4": "2025-05-28 12:49:03"
         },
         "deleted_at": {
           "0": NaN,
@@ -2087,693 +2797,6 @@
       }
     }
   },
-  "formulas_items.xlsx": {
-    "Sheet1": {
-      "nombre": "formulas_items.xlsx - Sheet1",
-      "forma": [
-        1000,
-        9
-      ],
-      "columnas": [
-        "id",
-        "prescription_id",
-        "name",
-        "presentation",
-        "quantity",
-        "posology",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "prescription_id": "int64",
-        "name": "object",
-        "presentation": "object",
-        "quantity": "int64",
-        "posology": "object",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "float64"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "prescription_id": 0,
-        "name": 0,
-        "presentation": 70,
-        "quantity": 0,
-        "posology": 10,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 1000
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "prescription_id": 346,
-        "name": 874,
-        "presentation": 339,
-        "quantity": 24,
-        "posology": 962,
-        "created_at": 355,
-        "updated_at": 363,
-        "deleted_at": 0
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 3508162.5,
-          "mediana": 3508162.5,
-          "nulos": 0
-        },
-        "prescription_id": {
-          "media": 1412826.142,
-          "mediana": 1412871.0,
-          "nulos": 0
-        },
-        "quantity": {
-          "media": 3.593,
-          "mediana": 1.0,
-          "nulos": 0
-        },
-        "deleted_at": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 3508662,
-          "1": 3508661,
-          "2": 3508660,
-          "3": 3508659,
-          "4": 3508658
-        },
-        "prescription_id": {
-          "0": 1413043,
-          "1": 1413043,
-          "2": 1413043,
-          "3": 1413043,
-          "4": 1413043
-        },
-        "name": {
-          "0": "Furosemida 40 mg (farmacia)",
-          "1": "vitamina C 100 mg / gotas  (farmacia)",
-          "2": "dolidol 0,1 %",
-          "3": "prednizolona 5 mg",
-          "4": "renalof"
-        },
-        "presentation": {
-          "0": NaN,
-          "1": "Suspensión",
-          "2": "gotas",
-          "3": "tabletas",
-          "4": "Suspensión"
-        },
-        "quantity": {
-          "0": 1,
-          "1": 1,
-          "2": 1,
-          "3": 10,
-          "4": 1
-        },
-        "posology": {
-          "0": "Administrar vía oral un cuarto de tableta cada 24 horas por 3 dias",
-          "1": "Administrar vía oral 3 gotas cada 12 horas por 15 dias",
-          "2": "Administrar vía oral 4 gotas cada 24 horas por 3 dias",
-          "3": "Administrar vía oral una tableta cada 24 horas por 6 dias, luego media tableta cada 24 horas por 6 dias y por ultimo un cuarto de tableta cada 24 horas por 4 dias.",
-          "4": "Administrar vía oral 1 ml cada 24 horas por 30 dias"
-        },
-        "created_at": {
-          "0": "2025-05-28 12:51:40",
-          "1": "2025-05-28 12:51:40",
-          "2": "2025-05-28 12:51:40",
-          "3": "2025-05-28 12:51:40",
-          "4": "2025-05-28 12:51:40"
-        },
-        "updated_at": {
-          "0": "2025-05-28 12:51:40",
-          "1": "2025-05-28 12:51:40",
-          "2": "2025-05-28 12:51:40",
-          "3": "2025-05-28 12:51:40",
-          "4": "2025-05-28 12:51:40"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
-  "peluqueria_spa_items.xlsx": {
-    "Sheet1": {
-      "nombre": "peluqueria_spa_items.xlsx - Sheet1",
-      "forma": [
-        1000,
-        8
-      ],
-      "columnas": [
-        "id",
-        "spa_id",
-        "subject",
-        "responsible_id",
-        "details",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "spa_id": "int64",
-        "subject": "object",
-        "responsible_id": "float64",
-        "details": "object",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "float64"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "spa_id": 0,
-        "subject": 0,
-        "responsible_id": 562,
-        "details": 644,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 1000
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "spa_id": 992,
-        "subject": 273,
-        "responsible_id": 98,
-        "details": 252,
-        "created_at": 989,
-        "updated_at": 992,
-        "deleted_at": 0
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 266134.5,
-          "mediana": 266134.5,
-          "nulos": 0
-        },
-        "spa_id": {
-          "media": 259918.409,
-          "mediana": 259919.5,
-          "nulos": 0
-        },
-        "responsible_id": {
-          "media": 13323.648401826484,
-          "mediana": 12781.0,
-          "nulos": 562
-        },
-        "deleted_at": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 266634,
-          "1": 266633,
-          "2": 266632,
-          "3": 266631,
-          "4": 266630
-        },
-        "spa_id": {
-          "0": 260413,
-          "1": 260412,
-          "2": 260411,
-          "3": 260410,
-          "4": 260409
-        },
-        "subject": {
-          "0": "BAÑO MEDICADO",
-          "1": "BAÑO MEDICADO",
-          "2": "baño y peluqueria",
-          "3": "BAÑO Y CEPILLADO",
-          "4": "BAÑO Y CEPILLADO"
-        },
-        "responsible_id": {
-          "0": 4839.0,
-          "1": 4839.0,
-          "2": 24049.0,
-          "3": NaN,
-          "4": NaN
-        },
-        "details": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "created_at": {
-          "0": "2025-05-28 15:01:52",
-          "1": "2025-05-28 15:01:14",
-          "2": "2025-05-28 13:00:22",
-          "3": "2025-05-28 12:00:11",
-          "4": "2025-05-28 11:59:25"
-        },
-        "updated_at": {
-          "0": "2025-05-28 15:01:52",
-          "1": "2025-05-28 15:01:14",
-          "2": "2025-05-28 13:00:22",
-          "3": "2025-05-28 12:00:11",
-          "4": "2025-05-28 11:59:25"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
-  "seguimientos.xlsx": {
-    "Sheet1": {
-      "nombre": "seguimientos.xlsx - Sheet1",
-      "forma": [
-        1000,
-        32
-      ],
-      "columnas": [
-        "id",
-        "pet_id",
-        "vet_id",
-        "user_id",
-        "monitorable_id",
-        "monitorable_type",
-        "monitoring_at",
-        "type",
-        "details",
-        "next_control_at",
-        "temperature",
-        "temperature_unit",
-        "weight",
-        "weight_unit",
-        "bcs",
-        "crt",
-        "heart_rate",
-        "breathing_rate",
-        "reflexes",
-        "heartbeat",
-        "saturation",
-        "blood_pressure",
-        "mucous_membrane",
-        "glycemia",
-        "palpation",
-        "observations",
-        "file",
-        "dx",
-        "waiting_room_shift_id",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "pet_id": "int64",
-        "vet_id": "int64",
-        "user_id": "int64",
-        "monitorable_id": "float64",
-        "monitorable_type": "object",
-        "monitoring_at": "object",
-        "type": "float64",
-        "details": "object",
-        "next_control_at": "object",
-        "temperature": "float64",
-        "temperature_unit": "object",
-        "weight": "float64",
-        "weight_unit": "object",
-        "bcs": "object",
-        "crt": "object",
-        "heart_rate": "object",
-        "breathing_rate": "object",
-        "reflexes": "object",
-        "heartbeat": "object",
-        "saturation": "object",
-        "blood_pressure": "object",
-        "mucous_membrane": "object",
-        "glycemia": "object",
-        "palpation": "object",
-        "observations": "object",
-        "file": "object",
-        "dx": "object",
-        "waiting_room_shift_id": "float64",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "object"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "pet_id": 0,
-        "vet_id": 0,
-        "user_id": 0,
-        "monitorable_id": 578,
-        "monitorable_type": 578,
-        "monitoring_at": 0,
-        "type": 478,
-        "details": 0,
-        "next_control_at": 962,
-        "temperature": 873,
-        "temperature_unit": 873,
-        "weight": 884,
-        "weight_unit": 884,
-        "bcs": 890,
-        "crt": 884,
-        "heart_rate": 882,
-        "breathing_rate": 883,
-        "reflexes": 928,
-        "heartbeat": 919,
-        "saturation": 961,
-        "blood_pressure": 953,
-        "mucous_membrane": 884,
-        "glycemia": 977,
-        "palpation": 957,
-        "observations": 971,
-        "file": 846,
-        "dx": 997,
-        "waiting_room_shift_id": 994,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 987
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "pet_id": 828,
-        "vet_id": 193,
-        "user_id": 328,
-        "monitorable_id": 377,
-        "monitorable_type": 10,
-        "monitoring_at": 702,
-        "type": 7,
-        "details": 896,
-        "next_control_at": 15,
-        "temperature": 28,
-        "temperature_unit": 2,
-        "weight": 84,
-        "weight_unit": 2,
-        "bcs": 15,
-        "crt": 20,
-        "heart_rate": 66,
-        "breathing_rate": 48,
-        "reflexes": 24,
-        "heartbeat": 18,
-        "saturation": 13,
-        "blood_pressure": 39,
-        "mucous_membrane": 5,
-        "glycemia": 15,
-        "palpation": 27,
-        "observations": 29,
-        "file": 154,
-        "dx": 3,
-        "waiting_room_shift_id": 6,
-        "created_at": 994,
-        "updated_at": 992,
-        "deleted_at": 13
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 1370479.5,
-          "mediana": 1370479.5,
-          "nulos": 0
-        },
-        "pet_id": {
-          "media": 1531716.793,
-          "mediana": 1885851.5,
-          "nulos": 0
-        },
-        "vet_id": {
-          "media": 5130.764,
-          "mediana": 3209.0,
-          "nulos": 0
-        },
-        "user_id": {
-          "media": 13234.539,
-          "mediana": 14061.0,
-          "nulos": 0
-        },
-        "monitorable_id": {
-          "media": 402835.836492891,
-          "mediana": 222496.5,
-          "nulos": 578
-        },
-        "type": {
-          "media": 3.8544061302681993,
-          "mediana": 4.0,
-          "nulos": 478
-        },
-        "temperature": {
-          "media": 38.069055118110235,
-          "mediana": 38.5,
-          "nulos": 873
-        },
-        "weight": {
-          "media": 34.38043103448276,
-          "mediana": 7.8,
-          "nulos": 884
-        },
-        "waiting_room_shift_id": {
-          "media": 23047.666666666668,
-          "mediana": 23048.5,
-          "nulos": 994
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 1370979,
-          "1": 1370978,
-          "2": 1370977,
-          "3": 1370976,
-          "4": 1370975
-        },
-        "pet_id": {
-          "0": 1629921,
-          "1": 1958289,
-          "2": 234371,
-          "3": 148522,
-          "4": 1964136
-        },
-        "vet_id": {
-          "0": 6034,
-          "1": 71,
-          "2": 975,
-          "3": 5251,
-          "4": 8374
-        },
-        "user_id": {
-          "0": 9642,
-          "1": 2264,
-          "2": 9304,
-          "3": 3603,
-          "4": 21755
-        },
-        "monitorable_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "monitorable_type": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "monitoring_at": {
-          "0": "2025-05-28 13:01:00",
-          "1": "2025-05-28 13:02:00",
-          "2": "2025-05-28 13:00:00",
-          "3": "2025-05-28 13:00:00",
-          "4": "2025-05-28 13:01:00"
-        },
-        "type": {
-          "0": NaN,
-          "1": NaN,
-          "2": 7.0,
-          "3": NaN,
-          "4": NaN
-        },
-        "details": {
-          "0": "Paciente ingresa para revisión, reportan  que la ven mejor, con las patitas, esta mejor, pero cundo para e tratamiento, se vuelve a rascar  y esta defecando como con un moco y ayer vomito. \n\n_El ultimo baño fue el lunes. \n\nPeso: 14.8kg \n\nDAC/",
-          "1": "Paciente no asiste a revision",
-          "2": "Enteritis",
-          "3": "S. ELLA VENIA BIEN PERO OTRA VEZ ESTA MOQUIANDO, ELLA HACE COMO PARA SACAR ALGO. \nO. PACIENTE ALERTA, DINAMICA, MUCOSAS ROSADAS Y HUMEDAS, REFLEJO TUSIGENO POSITIVO Y PALMOPERCUTOR NEGATIVO \nSIN SONIDOS CONGESTIVOS A LA AUSCULTACION DEL TORAX. \nI. TRAQUEITIS, CALCIFICACION TRAQUEAL/ESTENOSIS TRAQUEAL \nP. SE ENVIA TERAPIA COMPLEMENTARIA, SE INDICA TRAER A REVISION EN 5 DIAS, EN CASO DE QUE NO HAYA RESOLUCION DE LOS SINTOMAS SE RECOMIENDA REALIZAR RADIOGRAFIA CERVICOTORACICA.",
-          "4": "SCSXCS"
-        },
-        "next_control_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": "2025-06-02",
-          "4": NaN
-        },
-        "temperature": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "temperature_unit": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "weight": {
-          "0": NaN,
-          "1": NaN,
-          "2": 13.4,
-          "3": NaN,
-          "4": NaN
-        },
-        "weight_unit": {
-          "0": NaN,
-          "1": NaN,
-          "2": "kg",
-          "3": NaN,
-          "4": NaN
-        },
-        "bcs": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "crt": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "heart_rate": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "breathing_rate": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "reflexes": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "heartbeat": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "saturation": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "blood_pressure": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "mucous_membrane": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "glycemia": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "palpation": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "observations": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "file": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "dx": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "waiting_room_shift_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "created_at": {
-          "0": "2025-05-28 13:04:05",
-          "1": "2025-05-28 13:03:11",
-          "2": "2025-05-28 13:02:05",
-          "3": "2025-05-28 13:02:01",
-          "4": "2025-05-28 13:01:41"
-        },
-        "updated_at": {
-          "0": "2025-05-28 13:04:05",
-          "1": "2025-05-28 13:03:11",
-          "2": "2025-05-28 13:02:05",
-          "3": "2025-05-28 13:02:01",
-          "4": "2025-05-28 13:01:41"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
   "imagenologia.xlsx": {
     "Sheet1": {
       "nombre": "imagenologia.xlsx - Sheet1",
@@ -3023,9 +3046,717 @@
       }
     }
   },
-  "formulas_cabecera.xlsx": {
+  "propietarios.xlsx": {
     "Sheet1": {
-      "nombre": "formulas_cabecera.xlsx - Sheet1",
+      "nombre": "propietarios.xlsx - Sheet1",
+      "forma": [
+        1000,
+        19
+      ],
+      "columnas": [
+        "id",
+        "name (mask)",
+        "ident_type",
+        "number_doc (mask)",
+        "phone (mask)",
+        "phone2 (mask)",
+        "mobile (mask)",
+        "email (mask)",
+        "address (mask)",
+        "city",
+        "region",
+        "country",
+        "conctact (mask)",
+        "kind_person",
+        "regime",
+        "habeas_at",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "name (mask)": "object",
+        "ident_type": "object",
+        "number_doc (mask)": "object",
+        "phone (mask)": "object",
+        "phone2 (mask)": "object",
+        "mobile (mask)": "object",
+        "email (mask)": "object",
+        "address (mask)": "object",
+        "city": "object",
+        "region": "object",
+        "country": "object",
+        "conctact (mask)": "object",
+        "kind_person": "object",
+        "regime": "object",
+        "habeas_at": "object",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "float64"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "name (mask)": 0,
+        "ident_type": 0,
+        "number_doc (mask)": 0,
+        "phone (mask)": 0,
+        "phone2 (mask)": 0,
+        "mobile (mask)": 0,
+        "email (mask)": 0,
+        "address (mask)": 0,
+        "city": 9,
+        "region": 10,
+        "country": 10,
+        "conctact (mask)": 387,
+        "kind_person": 0,
+        "regime": 0,
+        "habeas_at": 9,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 1000
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "name (mask)": 941,
+        "ident_type": 9,
+        "number_doc (mask)": 359,
+        "phone (mask)": 616,
+        "phone2 (mask)": 702,
+        "mobile (mask)": 85,
+        "email (mask)": 481,
+        "address (mask)": 755,
+        "city": 207,
+        "region": 100,
+        "country": 19,
+        "conctact (mask)": 551,
+        "kind_person": 1,
+        "regime": 1,
+        "habeas_at": 981,
+        "created_at": 989,
+        "updated_at": 985,
+        "deleted_at": 0
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 1488020.5,
+          "mediana": 1488020.5,
+          "nulos": 0
+        },
+        "deleted_at": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 1488520,
+          "1": 1488519,
+          "2": 1488518,
+          "3": 1488517,
+          "4": 1488516
+        },
+        "name (mask)": {
+          "0": "j******* b*****",
+          "1": "A******* r************",
+          "2": "T**** R********",
+          "3": "L**** G********",
+          "4": "S***** R******"
+        },
+        "ident_type": {
+          "0": "mobile",
+          "1": "cc",
+          "2": "cc",
+          "3": "cc",
+          "4": "cc"
+        },
+        "number_doc (mask)": {
+          "0": "+57**********",
+          "1": "340*****",
+          "2": "114*******",
+          "3": "102*******",
+          "4": "943*****"
+        },
+        "phone (mask)": {
+          "0": "+5732********",
+          "1": "+5731********",
+          "2": "+5730********",
+          "3": "31428*****",
+          "4": "+57 3**********"
+        },
+        "phone2 (mask)": {
+          "0": "+5732********",
+          "1": "31178*****",
+          "2": "+5730********",
+          "3": "31421*****",
+          "4": "+57 3**********"
+        },
+        "mobile (mask)": {
+          "0": "+5732********",
+          "1": "+5731********",
+          "2": "+5730********",
+          "3": "+5731********",
+          "4": "+5732********"
+        },
+        "email (mask)": {
+          "0": "***",
+          "1": "***",
+          "2": "tan***********@hotmail.com",
+          "3": "jin******@outlook.com",
+          "4": "***"
+        },
+        "address (mask)": {
+          "0": "supia",
+          "1": "Zapan*************************",
+          "2": "El cl**************",
+          "3": "no re*****",
+          "4": "calle****************************"
+        },
+        "city": {
+          "0": "Supía",
+          "1": "Dosquebradas",
+          "2": "Provincia de Cartagena",
+          "3": "Bogotá",
+          "4": "Tuluá"
+        },
+        "region": {
+          "0": "Caldas",
+          "1": "Risaralda",
+          "2": "Bolívar",
+          "3": "Bogotá",
+          "4": "Valle del Cauca"
+        },
+        "country": {
+          "0": "Colombia",
+          "1": "Colombia",
+          "2": "Colombia",
+          "3": "Colombia",
+          "4": "Colombia"
+        },
+        "conctact (mask)": {
+          "0": NaN,
+          "1": "J***** e******",
+          "2": NaN,
+          "3": "D****** G********",
+          "4": "S***** R******"
+        },
+        "kind_person": {
+          "0": "PERSON_ENTITY",
+          "1": "PERSON_ENTITY",
+          "2": "PERSON_ENTITY",
+          "3": "PERSON_ENTITY",
+          "4": "PERSON_ENTITY"
+        },
+        "regime": {
+          "0": "SIMPLIFIED_REGIME",
+          "1": "SIMPLIFIED_REGIME",
+          "2": "SIMPLIFIED_REGIME",
+          "3": "SIMPLIFIED_REGIME",
+          "4": "SIMPLIFIED_REGIME"
+        },
+        "habeas_at": {
+          "0": "2025-05-28 11:17:43",
+          "1": "2025-05-28 11:17:40",
+          "2": "2025-05-28 11:17:13",
+          "3": "2025-05-28 11:17:11",
+          "4": "2025-05-28 11:16:42"
+        },
+        "created_at": {
+          "0": "2025-05-28 11:17:43",
+          "1": "2025-05-28 11:17:40",
+          "2": "2025-05-28 11:17:13",
+          "3": "2025-05-28 11:17:11",
+          "4": "2025-05-28 11:16:42"
+        },
+        "updated_at": {
+          "0": "2025-05-28 11:17:43",
+          "1": "2025-05-28 11:17:40",
+          "2": "2025-05-28 11:17:13",
+          "3": "2025-05-28 11:17:11",
+          "4": "2025-05-28 11:16:42"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "ordenes_items.xlsx": {
+    "Sheet1": {
+      "nombre": "ordenes_items.xlsx - Sheet1",
+      "forma": [
+        1000,
+        13
+      ],
+      "columnas": [
+        "id",
+        "order_id",
+        "commandable_type",
+        "commandable_id",
+        "type_other",
+        "quantity",
+        "level",
+        "notes",
+        "pending",
+        "user_id",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "order_id": "int64",
+        "commandable_type": "object",
+        "commandable_id": "float64",
+        "type_other": "object",
+        "quantity": "int64",
+        "level": "object",
+        "notes": "object",
+        "pending": "float64",
+        "user_id": "float64",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "float64"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "order_id": 0,
+        "commandable_type": 0,
+        "commandable_id": 7,
+        "type_other": 993,
+        "quantity": 0,
+        "level": 393,
+        "notes": 554,
+        "pending": 576,
+        "user_id": 783,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 1000
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "order_id": 765,
+        "commandable_type": 5,
+        "commandable_id": 311,
+        "type_other": 6,
+        "quantity": 6,
+        "level": 4,
+        "notes": 394,
+        "pending": 2,
+        "user_id": 13,
+        "created_at": 779,
+        "updated_at": 816,
+        "deleted_at": 0
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 106688.5,
+          "mediana": 106688.5,
+          "nulos": 0
+        },
+        "order_id": {
+          "media": 80043.949,
+          "mediana": 80050.0,
+          "nulos": 0
+        },
+        "commandable_id": {
+          "media": 1206341.081570997,
+          "mediana": 48772.0,
+          "nulos": 7
+        },
+        "quantity": {
+          "media": 1.041,
+          "mediana": 1.0,
+          "nulos": 0
+        },
+        "pending": {
+          "media": 0.4882075471698113,
+          "mediana": 0.0,
+          "nulos": 576
+        },
+        "user_id": {
+          "media": 17988.437788018433,
+          "mediana": 20238.0,
+          "nulos": 783
+        },
+        "deleted_at": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 107188,
+          "1": 107187,
+          "2": 107186,
+          "3": 107185,
+          "4": 107184
+        },
+        "order_id": {
+          "0": 80427,
+          "1": 80426,
+          "2": 80425,
+          "3": 80424,
+          "4": 80424
+        },
+        "commandable_type": {
+          "0": "App\\Models\\ImageType",
+          "1": "App\\Models\\LaboratoryTest",
+          "2": "App\\Models\\ImageType",
+          "3": "App\\Models\\ImageType",
+          "4": "App\\Models\\ImageType"
+        },
+        "commandable_id": {
+          "0": 2.0,
+          "1": 3422836.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 2.0
+        },
+        "type_other": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "quantity": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1
+        },
+        "level": {
+          "0": "optional",
+          "1": "urgent",
+          "2": "urgent",
+          "3": "priority",
+          "4": "priority"
+        },
+        "notes": {
+          "0": ".",
+          "1": "dx en otra clinica",
+          "2": "con dx de otra clinica",
+          "3": "Abdominal en ayuno (Inapetencia, anemia moderada)",
+          "4": "Cadera Control"
+        },
+        "pending": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": 1.0,
+          "4": 1.0
+        },
+        "user_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "created_at": {
+          "0": "2025-05-28 13:50:24",
+          "1": "2025-05-28 13:47:02",
+          "2": "2025-05-28 13:45:57",
+          "3": "2025-05-28 12:45:38",
+          "4": "2025-05-28 12:45:38"
+        },
+        "updated_at": {
+          "0": "2025-05-28 13:50:24",
+          "1": "2025-05-28 13:47:02",
+          "2": "2025-05-28 13:45:57",
+          "3": "2025-05-28 12:45:38",
+          "4": "2025-05-28 12:45:38"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "peluqueria_spa_items.xlsx": {
+    "Sheet1": {
+      "nombre": "peluqueria_spa_items.xlsx - Sheet1",
+      "forma": [
+        1000,
+        8
+      ],
+      "columnas": [
+        "id",
+        "spa_id",
+        "subject",
+        "responsible_id",
+        "details",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "spa_id": "int64",
+        "subject": "object",
+        "responsible_id": "float64",
+        "details": "object",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "float64"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "spa_id": 0,
+        "subject": 0,
+        "responsible_id": 562,
+        "details": 644,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 1000
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "spa_id": 992,
+        "subject": 273,
+        "responsible_id": 98,
+        "details": 252,
+        "created_at": 989,
+        "updated_at": 992,
+        "deleted_at": 0
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 266134.5,
+          "mediana": 266134.5,
+          "nulos": 0
+        },
+        "spa_id": {
+          "media": 259918.409,
+          "mediana": 259919.5,
+          "nulos": 0
+        },
+        "responsible_id": {
+          "media": 13323.648401826484,
+          "mediana": 12781.0,
+          "nulos": 562
+        },
+        "deleted_at": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 266634,
+          "1": 266633,
+          "2": 266632,
+          "3": 266631,
+          "4": 266630
+        },
+        "spa_id": {
+          "0": 260413,
+          "1": 260412,
+          "2": 260411,
+          "3": 260410,
+          "4": 260409
+        },
+        "subject": {
+          "0": "BAÑO MEDICADO",
+          "1": "BAÑO MEDICADO",
+          "2": "baño y peluqueria",
+          "3": "BAÑO Y CEPILLADO",
+          "4": "BAÑO Y CEPILLADO"
+        },
+        "responsible_id": {
+          "0": 4839.0,
+          "1": 4839.0,
+          "2": 24049.0,
+          "3": NaN,
+          "4": NaN
+        },
+        "details": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "created_at": {
+          "0": "2025-05-28 15:01:52",
+          "1": "2025-05-28 15:01:14",
+          "2": "2025-05-28 13:00:22",
+          "3": "2025-05-28 12:00:11",
+          "4": "2025-05-28 11:59:25"
+        },
+        "updated_at": {
+          "0": "2025-05-28 15:01:52",
+          "1": "2025-05-28 15:01:14",
+          "2": "2025-05-28 13:00:22",
+          "3": "2025-05-28 12:00:11",
+          "4": "2025-05-28 11:59:25"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "formulas_items.xlsx": {
+    "Sheet1": {
+      "nombre": "formulas_items.xlsx - Sheet1",
+      "forma": [
+        1000,
+        9
+      ],
+      "columnas": [
+        "id",
+        "prescription_id",
+        "name",
+        "presentation",
+        "quantity",
+        "posology",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "prescription_id": "int64",
+        "name": "object",
+        "presentation": "object",
+        "quantity": "int64",
+        "posology": "object",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "float64"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "prescription_id": 0,
+        "name": 0,
+        "presentation": 70,
+        "quantity": 0,
+        "posology": 10,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 1000
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "prescription_id": 346,
+        "name": 874,
+        "presentation": 339,
+        "quantity": 24,
+        "posology": 962,
+        "created_at": 355,
+        "updated_at": 363,
+        "deleted_at": 0
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 3508162.5,
+          "mediana": 3508162.5,
+          "nulos": 0
+        },
+        "prescription_id": {
+          "media": 1412826.142,
+          "mediana": 1412871.0,
+          "nulos": 0
+        },
+        "quantity": {
+          "media": 3.593,
+          "mediana": 1.0,
+          "nulos": 0
+        },
+        "deleted_at": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 3508662,
+          "1": 3508661,
+          "2": 3508660,
+          "3": 3508659,
+          "4": 3508658
+        },
+        "prescription_id": {
+          "0": 1413043,
+          "1": 1413043,
+          "2": 1413043,
+          "3": 1413043,
+          "4": 1413043
+        },
+        "name": {
+          "0": "Furosemida 40 mg (farmacia)",
+          "1": "vitamina C 100 mg / gotas  (farmacia)",
+          "2": "dolidol 0,1 %",
+          "3": "prednizolona 5 mg",
+          "4": "renalof"
+        },
+        "presentation": {
+          "0": NaN,
+          "1": "Suspensión",
+          "2": "gotas",
+          "3": "tabletas",
+          "4": "Suspensión"
+        },
+        "quantity": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 10,
+          "4": 1
+        },
+        "posology": {
+          "0": "Administrar vía oral un cuarto de tableta cada 24 horas por 3 dias",
+          "1": "Administrar vía oral 3 gotas cada 12 horas por 15 dias",
+          "2": "Administrar vía oral 4 gotas cada 24 horas por 3 dias",
+          "3": "Administrar vía oral una tableta cada 24 horas por 6 dias, luego media tableta cada 24 horas por 6 dias y por ultimo un cuarto de tableta cada 24 horas por 4 dias.",
+          "4": "Administrar vía oral 1 ml cada 24 horas por 30 dias"
+        },
+        "created_at": {
+          "0": "2025-05-28 12:51:40",
+          "1": "2025-05-28 12:51:40",
+          "2": "2025-05-28 12:51:40",
+          "3": "2025-05-28 12:51:40",
+          "4": "2025-05-28 12:51:40"
+        },
+        "updated_at": {
+          "0": "2025-05-28 12:51:40",
+          "1": "2025-05-28 12:51:40",
+          "2": "2025-05-28 12:51:40",
+          "3": "2025-05-28 12:51:40",
+          "4": "2025-05-28 12:51:40"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "remisiones.xlsx": {
+    "Sheet1": {
+      "nombre": "remisiones.xlsx - Sheet1",
       "forma": [
         1000,
         14
@@ -3035,11 +3766,11 @@
         "pet_id",
         "vet_id",
         "user_id",
-        "prescription_at",
-        "diagnosis",
-        "raw_prescription",
-        "prescription",
-        "details",
+        "profesional_id",
+        "referral_at",
+        "destination",
+        "reason",
+        "observations",
         "dx",
         "waiting_room_shift_id",
         "created_at",
@@ -3051,12 +3782,12 @@
         "pet_id": "int64",
         "vet_id": "int64",
         "user_id": "int64",
-        "prescription_at": "object",
-        "diagnosis": "object",
-        "raw_prescription": "float64",
-        "prescription": "float64",
-        "details": "object",
-        "dx": "object",
+        "profesional_id": "int64",
+        "referral_at": "object",
+        "destination": "object",
+        "reason": "object",
+        "observations": "object",
+        "dx": "float64",
         "waiting_room_shift_id": "float64",
         "created_at": "object",
         "updated_at": "object",
@@ -3067,133 +3798,133 @@
         "pet_id": 0,
         "vet_id": 0,
         "user_id": 0,
-        "prescription_at": 0,
-        "diagnosis": 0,
-        "raw_prescription": 1000,
-        "prescription": 1000,
-        "details": 1,
-        "dx": 992,
-        "waiting_room_shift_id": 993,
+        "profesional_id": 0,
+        "referral_at": 0,
+        "destination": 4,
+        "reason": 0,
+        "observations": 149,
+        "dx": 1000,
+        "waiting_room_shift_id": 998,
         "created_at": 0,
         "updated_at": 0,
-        "deleted_at": 993
+        "deleted_at": 983
       },
       "valores_unicos": {
         "id": 1000,
-        "pet_id": 979,
-        "vet_id": 458,
-        "user_id": 605,
-        "prescription_at": 9,
-        "diagnosis": 908,
-        "raw_prescription": 0,
-        "prescription": 0,
-        "details": 942,
-        "dx": 7,
-        "waiting_room_shift_id": 5,
-        "created_at": 977,
-        "updated_at": 979,
-        "deleted_at": 7
+        "pet_id": 929,
+        "vet_id": 401,
+        "user_id": 506,
+        "profesional_id": 501,
+        "referral_at": 955,
+        "destination": 691,
+        "reason": 944,
+        "observations": 812,
+        "dx": 0,
+        "waiting_room_shift_id": 2,
+        "created_at": 1000,
+        "updated_at": 1000,
+        "deleted_at": 17
       },
       "estadisticas_tendencia_central": {
         "id": {
-          "media": 1412537.5,
-          "mediana": 1412537.5,
+          "media": 59507.5,
+          "mediana": 59507.5,
           "nulos": 0
         },
         "pet_id": {
-          "media": 1612937.473,
-          "mediana": 1958516.0,
+          "media": 1611082.049,
+          "mediana": 1932825.0,
           "nulos": 0
         },
         "vet_id": {
-          "media": 6654.925,
-          "mediana": 5804.0,
+          "media": 6013.449,
+          "mediana": 5015.0,
           "nulos": 0
         },
         "user_id": {
-          "media": 12066.172,
-          "mediana": 12586.0,
+          "media": 11441.525,
+          "mediana": 11790.0,
           "nulos": 0
         },
-        "raw_prescription": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
+        "profesional_id": {
+          "media": 11490.12,
+          "mediana": 11790.0,
+          "nulos": 0
         },
-        "prescription": {
+        "dx": {
           "media": NaN,
           "mediana": NaN,
           "nulos": 1000
         },
         "waiting_room_shift_id": {
-          "media": 23039.285714285714,
-          "mediana": 23044.0,
-          "nulos": 993
+          "media": 22435.0,
+          "mediana": 22435.0,
+          "nulos": 998
         }
       },
       "ejemplo": {
         "id": {
-          "0": 1413037,
-          "1": 1413036,
-          "2": 1413035,
-          "3": 1413034,
-          "4": 1413033
+          "0": 60007,
+          "1": 60006,
+          "2": 60005,
+          "3": 60004,
+          "4": 60003
         },
         "pet_id": {
-          "0": 1977722,
-          "1": 1977392,
-          "2": 1977396,
-          "3": 1732346,
-          "4": 1978058
+          "0": 1746143,
+          "1": 1288443,
+          "2": 1973467,
+          "3": 1978003,
+          "4": 1896381
         },
         "vet_id": {
-          "0": 8379,
-          "1": 12435,
-          "2": 1223,
-          "3": 5850,
-          "4": 15608
+          "0": 3665,
+          "1": 3030,
+          "2": 16963,
+          "3": 11253,
+          "4": 2680
         },
         "user_id": {
-          "0": 13072,
-          "1": 11081,
-          "2": 676,
-          "3": 9314,
-          "4": 23660
+          "0": 2167,
+          "1": 2821,
+          "2": 24896,
+          "3": 17005,
+          "4": 4260
         },
-        "prescription_at": {
-          "0": "2025-05-28",
-          "1": "2025-05-28",
-          "2": "2025-05-28",
-          "3": "2025-05-28",
-          "4": "2025-05-28"
+        "profesional_id": {
+          "0": 16846,
+          "1": 2821,
+          "2": 644,
+          "3": 17005,
+          "4": 4260
         },
-        "diagnosis": {
-          "0": "- OVARIOHISTERECTOMIA",
-          "1": "suturacion",
-          "2": "PACIENTE POSTQUIRURGICO DE OVH ELECTIVA",
-          "3": "Disbiosis",
-          "4": "TRAUMA POR GOLPE"
+        "referral_at": {
+          "0": "2025-05-28 13:00:00",
+          "1": "2025-05-28 12:28:00",
+          "2": "2025-05-28 12:30:00",
+          "3": "2025-05-28 12:10:00",
+          "4": "2025-05-28 12:07:00"
         },
-        "raw_prescription": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
+        "destination": {
+          "0": "VETERINARIA LA ESTRELLA",
+          "1": "pets",
+          "2": "CLINICA VETERINARIA",
+          "3": "ANIMAL VETER",
+          "4": "Clinica Veterinaria San Rafael"
         },
-        "prescription": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
+        "reason": {
+          "0": "PACIENTE REMITIDA A CONSULTA ESPECIALIZADA POR DERMATOLOGIA",
+          "1": "Se remite paciente para manejo intrahospitalario y radiografía de abdomen. \n\nDx. DEFINITIVO: \nFecaloma\n\nLa paciente se encuentra clínicamente estable, sin embargo, presenta emesis (2 episodios dia aprox), ptialismo, abdomen distendido, tenesmo fecal, dolor moderado a severo palpación abdominal caudal derecha y presencia de materia fecal seca a la palpación rectal.",
+          "2": "ECOGRAFIA ABDOMINAL / CISTITIS IDIOPATICA - UROLITIASIS -------",
+          "3": "Se remite paciente para endoscopia por cuerpo extraño a nivel gastrico.",
+          "4": "- se remite paciente para evaluación y programación de proceso quirúrgico por neoplasia en glándula mamaria caudal"
         },
-        "details": {
-          "0": "- CONTROL EL DIA 4/06/2025 A LAS 10.30AM\n- RETIRO DE PUNTOS EL DIA 11/05/2025 A LAS 10:30 AM (SEGUN LA EVOLUCION DE LA PACIENTE).\n- USO DE BODY QUIRURGICO CONSTANTE POR 15 DIAS.\n- OFRECER DIETA BLANDA POR 3 DIAS (LATA DE HILLS A/D O ROYAL CANIN SHIH-TZU).\n- SEGUN LOS RESULTADOS DEL EXAMEN SANGUINEO SE COMPLEMENTARA LA FORMULA MEDICA.",
-          "1": "tener en un lugara cerrado \ntener con collar isabelino",
-          "2": "- MEDICACIÓN APARTIR DE MAÑANA.\n- USO DE COLLAR ISABELINO OBLIGATORIO Y PERMANENTE HASTA EL RETIRO DE PUNTOS.\n- RETIRO DE PUNTOS EN 10 DÍAS.\n\n- Puede presentarse 1 o 2 episodios de vómito durante las primeras 24 horas postquirúrgicas que pueden considerarse normales por efecto residual de anestesia.\n- El paciente debe permanecer calientito, recuerde que la anestesia baja la temperatura corporal y la capacidad de regularla.\n- No obligue a comer/recibir agua durante las primeras 12 horas postquirúrgicas.\n- Ante cualquier eventualidad comunicarse o acudir con la clínica de inmediato.\n- CITA DE CONTROL DENTRO DE 3 DÍAS.",
-          "3": NaN,
-          "4": "SE RECOMIENDA TRAER A REVISIÓN EL DÍA SÁBADO 2-10PM\nSE RECOMIENDA DISMINUIR MOVIMIENTOS BRUSCOS"
+        "observations": {
+          "0": "La Estrella Clínica Veterinaria\nDirección: Barrio la estrella, Cra. 24b #61 A - 37, Manizales, Caldas\nTeléfono: 315 2308233",
+          "1": "Se envía reporte ecográfico a la tutora, en el que se evidencia abundante contenido en colon sugerente de constipación/estreñimiento.",
+          "2": "------------",
+          "3": "Se envian muestras de sangre para prequirurgicos e imagenes ecograficas a centro medico receptor.",
+          "4": "- paciente con neoproliferación mamaria caudal \n- cita con el Dr Rafael Velosa"
         },
         "dx": {
           "0": NaN,
@@ -3210,670 +3941,18 @@
           "4": NaN
         },
         "created_at": {
-          "0": "2025-05-28 12:49:54",
-          "1": "2025-05-28 12:49:54",
-          "2": "2025-05-28 12:49:21",
-          "3": "2025-05-28 12:49:08",
-          "4": "2025-05-28 12:49:03"
+          "0": "2025-05-28 13:01:50",
+          "1": "2025-05-28 12:44:46",
+          "2": "2025-05-28 12:33:58",
+          "3": "2025-05-28 12:12:43",
+          "4": "2025-05-28 12:11:19"
         },
         "updated_at": {
-          "0": "2025-05-28 12:49:54",
-          "1": "2025-05-28 12:49:54",
-          "2": "2025-05-28 12:49:21",
-          "3": "2025-05-28 12:49:08",
-          "4": "2025-05-28 12:49:03"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
-  "documentos.xlsx": {
-    "Sheet1": {
-      "nombre": "documentos.xlsx - Sheet1",
-      "forma": [
-        1000,
-        16
-      ],
-      "columnas": [
-        "id",
-        "vet_id",
-        "pet_id",
-        "user_id",
-        "firebase_token_id",
-        "doc_format_type_id",
-        "documented_id",
-        "documented_type",
-        "documented_at",
-        "name",
-        "required_signature",
-        "signature_at",
-        "waiting_room_shift_id",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "vet_id": "int64",
-        "pet_id": "int64",
-        "user_id": "int64",
-        "firebase_token_id": "float64",
-        "doc_format_type_id": "int64",
-        "documented_id": "float64",
-        "documented_type": "object",
-        "documented_at": "object",
-        "name": "object",
-        "required_signature": "int64",
-        "signature_at": "object",
-        "waiting_room_shift_id": "float64",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "object"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "vet_id": 0,
-        "pet_id": 0,
-        "user_id": 0,
-        "firebase_token_id": 986,
-        "doc_format_type_id": 0,
-        "documented_id": 940,
-        "documented_type": 940,
-        "documented_at": 0,
-        "name": 0,
-        "required_signature": 0,
-        "signature_at": 361,
-        "waiting_room_shift_id": 996,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 961
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "vet_id": 168,
-        "pet_id": 799,
-        "user_id": 302,
-        "firebase_token_id": 11,
-        "doc_format_type_id": 337,
-        "documented_id": 60,
-        "documented_type": 5,
-        "documented_at": 995,
-        "name": 242,
-        "required_signature": 2,
-        "signature_at": 639,
-        "waiting_room_shift_id": 4,
-        "created_at": 995,
-        "updated_at": 998,
-        "deleted_at": 39
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 224425.5,
-          "mediana": 224425.5,
-          "nulos": 0
-        },
-        "vet_id": {
-          "media": 5686.814,
-          "mediana": 4476.5,
-          "nulos": 0
-        },
-        "pet_id": {
-          "media": 1599818.572,
-          "mediana": 1947833.0,
-          "nulos": 0
-        },
-        "user_id": {
-          "media": 12904.155,
-          "mediana": 13510.0,
-          "nulos": 0
-        },
-        "firebase_token_id": {
-          "media": 112874.0,
-          "mediana": 117195.0,
-          "nulos": 986
-        },
-        "doc_format_type_id": {
-          "media": 25441.433,
-          "mediana": 26459.0,
-          "nulos": 0
-        },
-        "documented_id": {
-          "media": 360617.01666666666,
-          "mediana": 260168.0,
-          "nulos": 940
-        },
-        "required_signature": {
-          "media": 0.943,
-          "mediana": 1.0,
-          "nulos": 0
-        },
-        "waiting_room_shift_id": {
-          "media": 23019.25,
-          "mediana": 23023.5,
-          "nulos": 996
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 224925,
-          "1": 224924,
-          "2": 224923,
-          "3": 224922,
-          "4": 224921
-        },
-        "vet_id": {
-          "0": 2851,
-          "1": 2773,
-          "2": 8379,
-          "3": 2640,
-          "4": 2640
-        },
-        "pet_id": {
-          "0": 1613171,
-          "1": 1704034,
-          "2": 1604238,
-          "3": 1978001,
-          "4": 1977939
-        },
-        "user_id": {
-          "0": 21558,
-          "1": 9837,
-          "2": 13072,
-          "3": 9704,
-          "4": 9704
-        },
-        "firebase_token_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "doc_format_type_id": {
-          "0": 43461,
-          "1": 18312,
-          "2": 25372,
-          "3": 7876,
-          "4": 7876
-        },
-        "documented_id": {
-          "0": 260407.0,
-          "1": 260406.0,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "documented_type": {
-          "0": "App\\Models\\Spa",
-          "1": "App\\Models\\Spa",
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "documented_at": {
-          "0": "2025-05-28 12:57:05",
-          "1": "2025-05-28 12:57:03",
-          "2": "2025-05-28 12:56:05",
-          "3": "2025-05-28 12:55:20",
-          "4": "2025-05-28 12:54:16"
-        },
-        "name": {
-          "0": "CONSENTIMIENTO PELUQUERIA",
-          "1": "AUTORIZACION PELUQUERIA",
-          "2": "Consentimiento informado",
-          "3": "CONSENTIMIENTO INFORMADO DE SERVICIO DE PELUQUERÍA",
-          "4": "CONSENTIMIENTO INFORMADO DE SERVICIO DE PELUQUERÍA"
-        },
-        "required_signature": {
-          "0": 1,
-          "1": 1,
-          "2": 1,
-          "3": 1,
-          "4": 1
-        },
-        "signature_at": {
-          "0": "2025-05-28 12:58:24",
-          "1": "2025-05-28 12:57:30",
-          "2": NaN,
-          "3": "2025-05-28 13:04:08",
-          "4": NaN
-        },
-        "waiting_room_shift_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "created_at": {
-          "0": "2025-05-28 12:57:05",
-          "1": "2025-05-28 12:57:03",
-          "2": "2025-05-28 12:56:05",
-          "3": "2025-05-28 12:55:20",
-          "4": "2025-05-28 12:54:16"
-        },
-        "updated_at": {
-          "0": "2025-05-28 12:58:24",
-          "1": "2025-05-28 12:57:30",
-          "2": "2025-05-28 12:56:05",
-          "3": "2025-05-28 13:04:08",
-          "4": "2025-05-28 12:54:16"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
-  "examenes_cabecera.xlsx": {
-    "Sheet1": {
-      "nombre": "examenes_cabecera.xlsx - Sheet1",
-      "forma": [
-        1000,
-        13
-      ],
-      "columnas": [
-        "id",
-        "pet_id",
-        "user_id",
-        "laboratories_id",
-        "laboratories_type",
-        "vet_id",
-        "exam_date",
-        "diagnosis",
-        "dx",
-        "waiting_room_shift_id",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "pet_id": "int64",
-        "user_id": "int64",
-        "laboratories_id": "float64",
-        "laboratories_type": "float64",
-        "vet_id": "int64",
-        "exam_date": "object",
-        "diagnosis": "object",
-        "dx": "object",
-        "waiting_room_shift_id": "float64",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "object"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "pet_id": 0,
-        "user_id": 0,
-        "laboratories_id": 1000,
-        "laboratories_type": 1000,
-        "vet_id": 0,
-        "exam_date": 0,
-        "diagnosis": 46,
-        "dx": 999,
-        "waiting_room_shift_id": 1000,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 993
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "pet_id": 877,
-        "user_id": 370,
-        "laboratories_id": 0,
-        "laboratories_type": 0,
-        "vet_id": 273,
-        "exam_date": 63,
-        "diagnosis": 634,
-        "dx": 1,
-        "waiting_room_shift_id": 0,
-        "created_at": 996,
-        "updated_at": 995,
-        "deleted_at": 7
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 572754.5,
-          "mediana": 572754.5,
-          "nulos": 0
-        },
-        "pet_id": {
-          "media": 1555679.816,
-          "mediana": 1923619.0,
-          "nulos": 0
-        },
-        "user_id": {
-          "media": 13775.002,
-          "mediana": 16340.0,
-          "nulos": 0
-        },
-        "laboratories_id": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
-        },
-        "laboratories_type": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
-        },
-        "vet_id": {
-          "media": 6886.099,
-          "mediana": 6240.0,
-          "nulos": 0
-        },
-        "waiting_room_shift_id": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 573254,
-          "1": 573253,
-          "2": 573252,
-          "3": 573251,
-          "4": 573250
-        },
-        "pet_id": {
-          "0": 1808561,
-          "1": 1615953,
-          "2": 1978025,
-          "3": 1049582,
-          "4": 1946027
-        },
-        "user_id": {
-          "0": 20238,
-          "1": 20238,
-          "2": 15087,
-          "3": 4962,
-          "4": 11242
-        },
-        "laboratories_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "laboratories_type": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "vet_id": {
-          "0": 13444,
-          "1": 13444,
-          "2": 9856,
-          "3": 3132,
-          "4": 1141
-        },
-        "exam_date": {
-          "0": "2025-05-28",
-          "1": "2025-05-28",
-          "2": "2025-05-28",
-          "3": "2025-05-28",
-          "4": "2025-05-27"
-        },
-        "diagnosis": {
-          "0": "HISTOPATOLOGIA",
-          "1": "HISTOPATOLOGIA",
-          "2": ".",
-          "3": "Seguimiento",
-          "4": "EXAMENES CONTROL PRE ANESTESICOS RESONANCIA.\nHALLAZGOS:\nCH: LEUCOPENIA, TROMBOCITOPENIA (LEVE).\nBIOQUIMICAS: ALT ELEVADA 315.9"
-        },
-        "dx": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "waiting_room_shift_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "created_at": {
-          "0": "2025-05-28 12:55:49",
-          "1": "2025-05-28 12:54:28",
-          "2": "2025-05-28 12:54:02",
-          "3": "2025-05-28 11:53:55",
-          "4": "2025-05-28 12:53:30"
-        },
-        "updated_at": {
-          "0": "2025-05-28 12:55:49",
-          "1": "2025-05-28 12:54:28",
-          "2": "2025-05-28 12:54:02",
-          "3": "2025-05-28 11:53:55",
-          "4": "2025-05-28 12:53:30"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
-  "desparasitaciones.xlsx": {
-    "Sheet1": {
-      "nombre": "desparasitaciones.xlsx - Sheet1",
-      "forma": [
-        1000,
-        15
-      ],
-      "columnas": [
-        "id",
-        "pet_id",
-        "vet_id",
-        "user_id",
-        "deworming_at",
-        "product",
-        "dose",
-        "last_deworming",
-        "next_control_at",
-        "file",
-        "details",
-        "waiting_room_shift_id",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "pet_id": "int64",
-        "vet_id": "int64",
-        "user_id": "int64",
-        "deworming_at": "object",
-        "product": "object",
-        "dose": "object",
-        "last_deworming": "object",
-        "next_control_at": "object",
-        "file": "object",
-        "details": "object",
-        "waiting_room_shift_id": "float64",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "object"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "pet_id": 0,
-        "vet_id": 0,
-        "user_id": 0,
-        "deworming_at": 0,
-        "product": 0,
-        "dose": 0,
-        "last_deworming": 609,
-        "next_control_at": 226,
-        "file": 0,
-        "details": 659,
-        "waiting_room_shift_id": 1000,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 997
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "pet_id": 836,
-        "vet_id": 275,
-        "user_id": 327,
-        "deworming_at": 89,
-        "product": 531,
-        "dose": 361,
-        "last_deworming": 91,
-        "next_control_at": 99,
-        "file": 11,
-        "details": 288,
-        "waiting_room_shift_id": 0,
-        "created_at": 993,
-        "updated_at": 993,
-        "deleted_at": 3
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 396647.5,
-          "mediana": 396647.5,
-          "nulos": 0
-        },
-        "pet_id": {
-          "media": 1628790.099,
-          "mediana": 1931593.0,
-          "nulos": 0
-        },
-        "vet_id": {
-          "media": 7031.654,
-          "mediana": 5326.0,
-          "nulos": 0
-        },
-        "user_id": {
-          "media": 12641.416,
-          "mediana": 11697.0,
-          "nulos": 0
-        },
-        "waiting_room_shift_id": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 397147,
-          "1": 397146,
-          "2": 397145,
-          "3": 397144,
-          "4": 397143
-        },
-        "pet_id": {
-          "0": 1236276,
-          "1": 1876773,
-          "2": 1978095,
-          "3": 1978114,
-          "4": 1978056
-        },
-        "vet_id": {
-          "0": 3047,
-          "1": 10808,
-          "2": 16324,
-          "3": 5263,
-          "4": 10299
-        },
-        "user_id": {
-          "0": 4839,
-          "1": 9843,
-          "2": 23988,
-          "3": 8411,
-          "4": 18022
-        },
-        "deworming_at": {
-          "0": "2025-02-04",
-          "1": "2025-05-28",
-          "2": "2025-05-13",
-          "3": "2025-05-28",
-          "4": "2025-05-23"
-        },
-        "product": {
-          "0": "AFOXOPET DE 10 A 25 KG",
-          "1": "Drontal plus",
-          "2": "endogard",
-          "3": "VERMIC TOTAL",
-          "4": "FARMENZOL"
-        },
-        "dose": {
-          "0": "-",
-          "1": "1 tableta",
-          "2": "1/2",
-          "3": "1/4",
-          "4": "x 3d"
-        },
-        "last_deworming": {
-          "0": NaN,
-          "1": NaN,
-          "2": "2025-05-13",
-          "3": NaN,
-          "4": NaN
-        },
-        "next_control_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": "2025-05-29",
-          "3": "2025-06-18",
-          "4": "2025-06-18"
-        },
-        "file": {
-          "0": "[]",
-          "1": "[]",
-          "2": "[]",
-          "3": "[]",
-          "4": "[]"
-        },
-        "details": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": "Lo DESP con FARMENZOL el 23-24 y 25/5"
-        },
-        "waiting_room_shift_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "created_at": {
-          "0": "2025-05-28 14:52:34",
-          "1": "2025-05-28 10:49:35",
-          "2": "2025-05-28 11:48:56",
-          "3": "2025-05-28 12:47:25",
-          "4": "2025-05-28 11:47:10"
-        },
-        "updated_at": {
-          "0": "2025-05-28 14:52:34",
-          "1": "2025-05-28 10:49:35",
-          "2": "2025-05-28 11:48:56",
-          "3": "2025-05-28 12:47:25",
-          "4": "2025-05-28 11:47:10"
+          "0": "2025-05-28 13:01:50",
+          "1": "2025-05-28 12:44:46",
+          "2": "2025-05-28 12:33:58",
+          "3": "2025-05-28 12:12:43",
+          "4": "2025-05-28 12:11:19"
         },
         "deleted_at": {
           "0": NaN,
@@ -4074,206 +4153,6 @@
           "2": "2025-05-28 12:00:11",
           "3": "2025-05-28 11:59:25",
           "4": "2025-05-28 11:57:01"
-        },
-        "deleted_at": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        }
-      }
-    }
-  },
-  "guarderia.xlsx": {
-    "Sheet1": {
-      "nombre": "guarderia.xlsx - Sheet1",
-      "forma": [
-        1000,
-        14
-      ],
-      "columnas": [
-        "id",
-        "pet_id",
-        "vet_id",
-        "user_id",
-        "admission_date",
-        "discharge_date",
-        "type",
-        "quantity",
-        "objects",
-        "observations",
-        "waiting_room_shift_id",
-        "created_at",
-        "updated_at",
-        "deleted_at"
-      ],
-      "tipos_datos": {
-        "id": "int64",
-        "pet_id": "int64",
-        "vet_id": "int64",
-        "user_id": "int64",
-        "admission_date": "object",
-        "discharge_date": "object",
-        "type": "object",
-        "quantity": "object",
-        "objects": "object",
-        "observations": "object",
-        "waiting_room_shift_id": "float64",
-        "created_at": "object",
-        "updated_at": "object",
-        "deleted_at": "object"
-      },
-      "valores_nulos": {
-        "id": 0,
-        "pet_id": 0,
-        "vet_id": 0,
-        "user_id": 0,
-        "admission_date": 0,
-        "discharge_date": 176,
-        "type": 4,
-        "quantity": 3,
-        "objects": 428,
-        "observations": 482,
-        "waiting_room_shift_id": 1000,
-        "created_at": 0,
-        "updated_at": 0,
-        "deleted_at": 985
-      },
-      "valores_unicos": {
-        "id": 1000,
-        "pet_id": 696,
-        "vet_id": 128,
-        "user_id": 163,
-        "admission_date": 907,
-        "discharge_date": 694,
-        "type": 375,
-        "quantity": 385,
-        "objects": 501,
-        "observations": 412,
-        "waiting_room_shift_id": 0,
-        "created_at": 1000,
-        "updated_at": 1000,
-        "deleted_at": 15
-      },
-      "estadisticas_tendencia_central": {
-        "id": {
-          "media": 7359.5,
-          "mediana": 7359.5,
-          "nulos": 0
-        },
-        "pet_id": {
-          "media": 1247040.052,
-          "mediana": 1392002.5,
-          "nulos": 0
-        },
-        "vet_id": {
-          "media": 5819.246,
-          "mediana": 4016.0,
-          "nulos": 0
-        },
-        "user_id": {
-          "media": 14400.084,
-          "mediana": 17713.0,
-          "nulos": 0
-        },
-        "waiting_room_shift_id": {
-          "media": NaN,
-          "mediana": NaN,
-          "nulos": 1000
-        }
-      },
-      "ejemplo": {
-        "id": {
-          "0": 7859,
-          "1": 7858,
-          "2": 7857,
-          "3": 7856,
-          "4": 7855
-        },
-        "pet_id": {
-          "0": 1101719,
-          "1": 878535,
-          "2": 1196329,
-          "3": 1874557,
-          "4": 1882243
-        },
-        "vet_id": {
-          "0": 1741,
-          "1": 2250,
-          "2": 2250,
-          "3": 2250,
-          "4": 14630
-        },
-        "user_id": {
-          "0": 2872,
-          "1": 19389,
-          "2": 19389,
-          "3": 19389,
-          "4": 21735
-        },
-        "admission_date": {
-          "0": "2025-05-27 10:00:00",
-          "1": "2025-05-26 07:00:00",
-          "2": "2025-05-27 07:00:00",
-          "3": "2025-05-27 07:00:00",
-          "4": "2025-05-08 08:01:00"
-        },
-        "discharge_date": {
-          "0": NaN,
-          "1": "2025-05-27 16:00:00",
-          "2": "2025-05-27 16:00:00",
-          "3": "2025-05-27 16:00:00",
-          "4": "2025-06-01 08:00:00"
-        },
-        "type": {
-          "0": "dog",
-          "1": "concentrado",
-          "2": "Dieta",
-          "3": "Dieta",
-          "4": "Casera"
-        },
-        "quantity": {
-          "0": "porcion",
-          "1": "2 veces al dia",
-          "2": "3 veces al dia",
-          "3": "3 veces al dia",
-          "4": "Alta"
-        },
-        "objects": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": "Ninguno"
-        },
-        "observations": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "waiting_room_shift_id": {
-          "0": NaN,
-          "1": NaN,
-          "2": NaN,
-          "3": NaN,
-          "4": NaN
-        },
-        "created_at": {
-          "0": "2025-05-28 12:57:33",
-          "1": "2025-05-27 15:55:37",
-          "2": "2025-05-27 15:08:57",
-          "3": "2025-05-27 15:08:01",
-          "4": "2025-05-27 13:17:57"
-        },
-        "updated_at": {
-          "0": "2025-05-28 12:57:33",
-          "1": "2025-05-27 15:55:37",
-          "2": "2025-05-27 15:08:57",
-          "3": "2025-05-27 15:08:01",
-          "4": "2025-05-27 13:17:57"
         },
         "deleted_at": {
           "0": NaN,
@@ -4598,6 +4477,660 @@
           "2": "2025-05-28 13:06:43",
           "3": "2025-05-28 12:05:44",
           "4": "2025-05-28 13:05:34"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "guarderia.xlsx": {
+    "Sheet1": {
+      "nombre": "guarderia.xlsx - Sheet1",
+      "forma": [
+        1000,
+        14
+      ],
+      "columnas": [
+        "id",
+        "pet_id",
+        "vet_id",
+        "user_id",
+        "admission_date",
+        "discharge_date",
+        "type",
+        "quantity",
+        "objects",
+        "observations",
+        "waiting_room_shift_id",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "pet_id": "int64",
+        "vet_id": "int64",
+        "user_id": "int64",
+        "admission_date": "object",
+        "discharge_date": "object",
+        "type": "object",
+        "quantity": "object",
+        "objects": "object",
+        "observations": "object",
+        "waiting_room_shift_id": "float64",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "object"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "pet_id": 0,
+        "vet_id": 0,
+        "user_id": 0,
+        "admission_date": 0,
+        "discharge_date": 176,
+        "type": 4,
+        "quantity": 3,
+        "objects": 428,
+        "observations": 482,
+        "waiting_room_shift_id": 1000,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 985
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "pet_id": 696,
+        "vet_id": 128,
+        "user_id": 163,
+        "admission_date": 907,
+        "discharge_date": 694,
+        "type": 375,
+        "quantity": 385,
+        "objects": 501,
+        "observations": 412,
+        "waiting_room_shift_id": 0,
+        "created_at": 1000,
+        "updated_at": 1000,
+        "deleted_at": 15
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 7359.5,
+          "mediana": 7359.5,
+          "nulos": 0
+        },
+        "pet_id": {
+          "media": 1247040.052,
+          "mediana": 1392002.5,
+          "nulos": 0
+        },
+        "vet_id": {
+          "media": 5819.246,
+          "mediana": 4016.0,
+          "nulos": 0
+        },
+        "user_id": {
+          "media": 14400.084,
+          "mediana": 17713.0,
+          "nulos": 0
+        },
+        "waiting_room_shift_id": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 7859,
+          "1": 7858,
+          "2": 7857,
+          "3": 7856,
+          "4": 7855
+        },
+        "pet_id": {
+          "0": 1101719,
+          "1": 878535,
+          "2": 1196329,
+          "3": 1874557,
+          "4": 1882243
+        },
+        "vet_id": {
+          "0": 1741,
+          "1": 2250,
+          "2": 2250,
+          "3": 2250,
+          "4": 14630
+        },
+        "user_id": {
+          "0": 2872,
+          "1": 19389,
+          "2": 19389,
+          "3": 19389,
+          "4": 21735
+        },
+        "admission_date": {
+          "0": "2025-05-27 10:00:00",
+          "1": "2025-05-26 07:00:00",
+          "2": "2025-05-27 07:00:00",
+          "3": "2025-05-27 07:00:00",
+          "4": "2025-05-08 08:01:00"
+        },
+        "discharge_date": {
+          "0": NaN,
+          "1": "2025-05-27 16:00:00",
+          "2": "2025-05-27 16:00:00",
+          "3": "2025-05-27 16:00:00",
+          "4": "2025-06-01 08:00:00"
+        },
+        "type": {
+          "0": "dog",
+          "1": "concentrado",
+          "2": "Dieta",
+          "3": "Dieta",
+          "4": "Casera"
+        },
+        "quantity": {
+          "0": "porcion",
+          "1": "2 veces al dia",
+          "2": "3 veces al dia",
+          "3": "3 veces al dia",
+          "4": "Alta"
+        },
+        "objects": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": "Ninguno"
+        },
+        "observations": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "waiting_room_shift_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "created_at": {
+          "0": "2025-05-28 12:57:33",
+          "1": "2025-05-27 15:55:37",
+          "2": "2025-05-27 15:08:57",
+          "3": "2025-05-27 15:08:01",
+          "4": "2025-05-27 13:17:57"
+        },
+        "updated_at": {
+          "0": "2025-05-28 12:57:33",
+          "1": "2025-05-27 15:55:37",
+          "2": "2025-05-27 15:08:57",
+          "3": "2025-05-27 15:08:01",
+          "4": "2025-05-27 13:17:57"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "examenes_items.xlsx": {
+    "Sheet1": {
+      "nombre": "examenes_items.xlsx - Sheet1",
+      "forma": [
+        1000,
+        10
+      ],
+      "columnas": [
+        "id",
+        "laboratory_id",
+        "user_id",
+        "laboratory_test_id",
+        "order_item_id",
+        "quantity",
+        "file",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "laboratory_id": "int64",
+        "user_id": "int64",
+        "laboratory_test_id": "int64",
+        "order_item_id": "float64",
+        "quantity": "int64",
+        "file": "object",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "object"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "laboratory_id": 0,
+        "user_id": 0,
+        "laboratory_test_id": 0,
+        "order_item_id": 1000,
+        "quantity": 0,
+        "file": 133,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 998
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "laboratory_id": 795,
+        "user_id": 367,
+        "laboratory_test_id": 580,
+        "order_item_id": 0,
+        "quantity": 1,
+        "file": 867,
+        "created_at": 805,
+        "updated_at": 811,
+        "deleted_at": 2
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 708429.5,
+          "mediana": 708429.5,
+          "nulos": 0
+        },
+        "laboratory_id": {
+          "media": 572859.806,
+          "mediana": 572883.0,
+          "nulos": 0
+        },
+        "user_id": {
+          "media": 13096.752,
+          "mediana": 15087.0,
+          "nulos": 0
+        },
+        "laboratory_test_id": {
+          "media": 1801168.622,
+          "mediana": 2053119.5,
+          "nulos": 0
+        },
+        "order_item_id": {
+          "media": NaN,
+          "mediana": NaN,
+          "nulos": 1000
+        },
+        "quantity": {
+          "media": 1.0,
+          "mediana": 1.0,
+          "nulos": 0
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 708929,
+          "1": 708928,
+          "2": 708927,
+          "3": 708926,
+          "4": 708925
+        },
+        "laboratory_id": {
+          "0": 573254,
+          "1": 573253,
+          "2": 573252,
+          "3": 573251,
+          "4": 573250
+        },
+        "user_id": {
+          "0": 20299,
+          "1": 20227,
+          "2": 15087,
+          "3": 4962,
+          "4": 11242
+        },
+        "laboratory_test_id": {
+          "0": 2857894,
+          "1": 2857894,
+          "2": 2016160,
+          "3": 650836,
+          "4": 1997077
+        },
+        "order_item_id": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "quantity": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1
+        },
+        "file": {
+          "0": "{\"name\": \"MAYA HISTOPATOLOGIA SURISADDAI ARDILA.pdf\", \"path\": \"VetFiles/13444/LaboratoryExam/QmbOx9uH8n75pXO4BNPM6bJrWpGdMRAPzrQT6lWp.pdf\"}",
+          "1": "{\"name\": \"KEILY HISTOPATOLOGIA ALEJANDRO OROZCO.pdf\", \"path\": \"VetFiles/13444/LaboratoryExam/nz8uxDnENnsfmsSr8uIHdAQH0oCJF8ufOBloQCdd.pdf\"}",
+          "2": "{\"name\": \"IMG-20250528-WA0033.jpg\", \"path\": \"VetFiles/9856/LaboratoryExam/ntU5QkJA9ibOS75H9bbRmPMm0v2noRZHQGjU39X4.jpg\"}",
+          "3": "{\"name\": \"GINA-MONTIEL-2025-05-28-0953.pdf\", \"path\": \"VetFiles/3132/LaboratoryExam/jrv9x5QJMG5p33SDFmgBOCngj0DzJvy08TVjhXCV.pdf\"}",
+          "4": "{\"name\": \"QUIMICA SANGUINEA CANINO YAKO LOBO 270525.pdf\", \"path\": \"VetFiles/1141/LaboratoryExam/08Pgz4hrvdrO3C15sGAA72jmgOUaj4LIqmG5Lb1P.pdf\"}"
+        },
+        "created_at": {
+          "0": "2025-05-28 12:55:49",
+          "1": "2025-05-28 12:54:28",
+          "2": "2025-05-28 12:54:02",
+          "3": "2025-05-28 11:53:55",
+          "4": "2025-05-28 12:53:30"
+        },
+        "updated_at": {
+          "0": "2025-05-28 12:55:49",
+          "1": "2025-05-28 12:54:28",
+          "2": "2025-05-28 12:54:02",
+          "3": "2025-05-28 11:53:55",
+          "4": "2025-05-28 12:53:30"
+        },
+        "deleted_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        }
+      }
+    }
+  },
+  "mascotas.xlsx": {
+    "Sheet1": {
+      "nombre": "mascotas.xlsx - Sheet1",
+      "forma": [
+        1000,
+        22
+      ],
+      "columnas": [
+        "id",
+        "owner_id",
+        "name",
+        "specie",
+        "race",
+        "specie_other",
+        "race_other",
+        "gender_id",
+        "color",
+        "birth_at",
+        "weight",
+        "weight_unit",
+        "size_id",
+        "reproductive_state",
+        "photo",
+        "dead",
+        "dead_at",
+        "code",
+        "food",
+        "created_at",
+        "updated_at",
+        "deleted_at"
+      ],
+      "tipos_datos": {
+        "id": "int64",
+        "owner_id": "int64",
+        "name": "object",
+        "specie": "object",
+        "race": "object",
+        "specie_other": "object",
+        "race_other": "object",
+        "gender_id": "int64",
+        "color": "object",
+        "birth_at": "object",
+        "weight": "float64",
+        "weight_unit": "object",
+        "size_id": "int64",
+        "reproductive_state": "object",
+        "photo": "object",
+        "dead": "int64",
+        "dead_at": "object",
+        "code": "object",
+        "food": "object",
+        "created_at": "object",
+        "updated_at": "object",
+        "deleted_at": "object"
+      },
+      "valores_nulos": {
+        "id": 0,
+        "owner_id": 0,
+        "name": 0,
+        "specie": 0,
+        "race": 0,
+        "specie_other": 991,
+        "race_other": 951,
+        "gender_id": 0,
+        "color": 25,
+        "birth_at": 0,
+        "weight": 0,
+        "weight_unit": 0,
+        "size_id": 0,
+        "reproductive_state": 0,
+        "photo": 954,
+        "dead": 0,
+        "dead_at": 994,
+        "code": 914,
+        "food": 653,
+        "created_at": 0,
+        "updated_at": 0,
+        "deleted_at": 999
+      },
+      "valores_unicos": {
+        "id": 1000,
+        "owner_id": 929,
+        "name": 815,
+        "specie": 7,
+        "race": 85,
+        "specie_other": 3,
+        "race_other": 30,
+        "gender_id": 3,
+        "color": 281,
+        "birth_at": 663,
+        "weight": 271,
+        "weight_unit": 3,
+        "size_id": 7,
+        "reproductive_state": 3,
+        "photo": 46,
+        "dead": 2,
+        "dead_at": 2,
+        "code": 83,
+        "food": 213,
+        "created_at": 986,
+        "updated_at": 984,
+        "deleted_at": 1
+      },
+      "estadisticas_tendencia_central": {
+        "id": {
+          "media": 1977310.5,
+          "mediana": 1977310.5,
+          "nulos": 0
+        },
+        "owner_id": {
+          "media": 1367892.185,
+          "mediana": 1488026.5,
+          "nulos": 0
+        },
+        "gender_id": {
+          "media": 1.525,
+          "mediana": 2.0,
+          "nulos": 0
+        },
+        "weight": {
+          "media": 35.145019999999995,
+          "mediana": 5.0,
+          "nulos": 0
+        },
+        "size_id": {
+          "media": 2.625,
+          "mediana": 3.0,
+          "nulos": 0
+        },
+        "dead": {
+          "media": 0.006,
+          "mediana": 0.0,
+          "nulos": 0
+        }
+      },
+      "ejemplo": {
+        "id": {
+          "0": 1977810,
+          "1": 1977809,
+          "2": 1977808,
+          "3": 1977807,
+          "4": 1977806
+        },
+        "owner_id": {
+          "0": 1488512,
+          "1": 1299508,
+          "2": 1488511,
+          "3": 1442518,
+          "4": 1488507
+        },
+        "name": {
+          "0": "SAM",
+          "1": "Milo",
+          "2": "LUNA GIRO",
+          "3": "Cloe",
+          "4": "STARKY"
+        },
+        "specie": {
+          "0": "canine",
+          "1": "feline",
+          "2": "feline",
+          "3": "feline",
+          "4": "canine"
+        },
+        "race": {
+          "0": "mestizo",
+          "1": "mestizo",
+          "2": "criolloa",
+          "3": "persa",
+          "4": "french_poodle"
+        },
+        "specie_other": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "race_other": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "gender_id": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 2,
+          "4": 1
+        },
+        "color": {
+          "0": "DORTADO BLANCO",
+          "1": "Atigrado",
+          "2": "Blanco",
+          "3": "Negro",
+          "4": "Marrón"
+        },
+        "birth_at": {
+          "0": "2021-01-17",
+          "1": "2024-12-07",
+          "2": "2023-06-20",
+          "3": "2025-01-17",
+          "4": "0204-02-12"
+        },
+        "weight": {
+          "0": 0.0,
+          "1": 3.0,
+          "2": 0.0,
+          "3": 2.3,
+          "4": 1.0
+        },
+        "weight_unit": {
+          "0": "kg",
+          "1": "kg",
+          "2": "kg",
+          "3": "kg",
+          "4": "kg"
+        },
+        "size_id": {
+          "0": 3,
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 3
+        },
+        "reproductive_state": {
+          "0": "sterilized",
+          "1": "unsterilized",
+          "2": "sterilized",
+          "3": "unsterilized",
+          "4": "unknow"
+        },
+        "photo": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "dead": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "dead_at": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "code": {
+          "0": NaN,
+          "1": NaN,
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "food": {
+          "0": NaN,
+          "1": "Br for Cats",
+          "2": NaN,
+          "3": NaN,
+          "4": NaN
+        },
+        "created_at": {
+          "0": "2025-05-28 12:15:23",
+          "1": "2025-05-28 11:15:17",
+          "2": "2025-05-28 11:15:06",
+          "3": "2025-05-28 10:15:02",
+          "4": "2025-05-28 11:14:31"
+        },
+        "updated_at": {
+          "0": "2025-05-28 12:15:23",
+          "1": "2025-05-28 11:15:17",
+          "2": "2025-05-28 11:15:06",
+          "3": "2025-05-28 10:15:02",
+          "4": "2025-05-28 11:14:31"
         },
         "deleted_at": {
           "0": NaN,
