@@ -8,8 +8,7 @@ os.path.dirname(...) → Extrae solo el directorio donde está el archivo (sin i
 # Obtener ruta absoluta del directorio donde está el script actual
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-
-'''script_dir = os.path.dirname(os.path.abspath(__file__))
+'''
 os.path.join(script_dir, "../..") → Une la ruta del script con dos niveles hacia arriba (.. significa "subir un directorio")
 os.path.abspath(...) → Convierte esa ruta relativa en una ruta absoluta'''
 
