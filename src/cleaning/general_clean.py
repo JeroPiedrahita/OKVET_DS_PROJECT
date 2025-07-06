@@ -91,3 +91,10 @@ for nombre, df in zip(nombres_dataframes, dfs_limpios):
     print(f"🔹 {nombre}")
     print(df.head())  # Muestra las primeras 5 filas
     print("-" * 40)
+
+
+# Supón que tu DataFrame limpio se llama df_nombrearchivo
+if "start" in df_citas.columns and "end" in df_citas.columns:
+    print(df_citas[["start", "end"]].head())
+else:
+    print("Las columnas 'start' y/o 'end' no están presentes en el DataFrame.")
