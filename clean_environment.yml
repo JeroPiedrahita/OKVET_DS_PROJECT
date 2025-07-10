@@ -1,0 +1,16 @@
+name: okvet_gen
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - matplotlib
+  - openpyxl
+  - numpy
+  - pandas
+  - jupyterlab
+  - seaborn
+  - scikit-learn
+  - anaconda-navigator
+  - nltk
+  - spacy
+prefix: /home/gomsal/miniconda3/envs/okvet_gen
