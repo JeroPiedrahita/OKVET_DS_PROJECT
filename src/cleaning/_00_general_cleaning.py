@@ -1,5 +1,17 @@
 import os
 import pandas as pd
+import nltk
+from nltk.corpus import stopwords  # ← move this up here
+
+nltk.download('stopwords')
+
+stopwords_es = set(stopwords.words('spanish'))
+stopwords_en = set(stopwords.words('english'))
+
+
+from src.cleaning.secondary_functions.H_clean_text import clean_text
+from src.cleaning.secondary_functions.B_lemmatization import clean_with_stopwords_and_lemmatization
+
 
 # ------------------------------
 # Función de limpieza general
@@ -7,10 +19,11 @@ import pandas as pd
 def limpieza_general(df):
     if df is None or df.empty:
         return None
-    
+
     #Eliminar columnas deleted_at, waiting_room_shift_id, dx
     columnas_a_eliminar = ["deleted_at", "waiting_room_shift_id", "dx"]
     df = df.drop(columns=[col for col in columnas_a_eliminar if col in df.columns], errors='ignore')
+
 
     df.columns = df.columns.str.strip().str.lower()
     df.replace(["", " ", "N/A", "n/a", "--"], pd.NA, inplace=True)
@@ -23,10 +36,17 @@ def limpieza_general(df):
     df = df[df.isnull().sum(axis=1) <= umbral_columnas]
     df.reset_index(drop=True, inplace=True)
 
-    # Convertir automáticamente columnas que parecen ser fechas (CON PALABRAS CLAVE)
-    posibles_fechas = [col for col in df.columns if any(keyword in col for keyword in ['fecha', 'date', 'created', 'updated', "deworming", "consult_at", "start", "end", "birth", "admission", "discharge"])]
+        # Convertir automáticamente columnas que parecen ser fechas (CON PALABRAS CLAVE)
+    posibles_fechas = [col for col in df.columns if any(keyword in col for keyword in ['fecha', 'date', 'created', 'updated', "deworming", "consult_at", "start", "end", "birth", "admission", "discharge","_at"]) and not col.endswith('_id')]
     for col in posibles_fechas:
-        df[col] = pd.to_datetime(df[col], errors="coerce")
+        df[col] = pd.to_datetime(df[col], errors="coerce", format=None)
+
+    #Identify text columns and apply cleaning
+    text_columns = df.select_dtypes(include=['object']).columns
+    for col in text_columns:
+        df[col] = df[col].apply(clean_text)
+        df[col] = df[col].apply(clean_with_stopwords_and_lemmatization)
+
 
     # Ordenar si están presentes
     orden_cols = [col for col in ["updated_at", "created_at"] if col in df.columns]
@@ -34,7 +54,7 @@ def limpieza_general(df):
         df = df.sort_values(by=orden_cols, ascending=False).reset_index(drop=True)
 
     # Rellenar texto faltante con "NA"
-    for col in df.select_dtypes(exclude=['number']).columns:
+    for col in df.select_dtypes(include=['object']).columns:
         df[col] = df[col].fillna("NA")
 
     return df
@@ -79,10 +99,10 @@ for archivo in os.listdir(data_dir):
 # ------------------------------
 # Confirmar resultados
 # ------------------------------
-print("✔ Se cargaron y procesaron los siguientes DataFrames:")
+'''print("✔ Se cargaron y procesaron los siguientes DataFrames:")
 for nombre in nombres_dataframes:
     print(f" - {nombre}")
-
+'''
 
 
 print("\n🧾 Vista previa de cada DataFrame limpio:\n")
@@ -93,8 +113,7 @@ for nombre, df in zip(nombres_dataframes, dfs_limpios):
     print("-" * 40)
 
 
-# Supón que tu DataFrame limpio se llama df_nombrearchivo
-if "start" in df_citas.columns and "end" in df_citas.columns:
-    print(df_citas[["start", "end"]].head())
-else:
-    print("Las columnas 'start' y/o 'end' no están presentes en el DataFrame.")
+
+#EXECUTE THE FOLLOWING COMMAND TO RUN THE SCRIPT: python -m src.cleaning.general_clean
+# -m: means to run a module as a script
+# src.cleaning.general_clean: is the path to the module you want to run

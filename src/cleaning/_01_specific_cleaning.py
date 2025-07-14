@@ -8,7 +8,11 @@ import seaborn as sns
 import os
 #---------------------------------------------
 #Llamado a la funcion de limpieza general
-from src.cleaning.general_clean import limpieza_general
+from src.cleaning._00_general_cleaning import limpieza_general
+from src.cleaning.secondary_functions.C_weight_Norm import normalizacion_peso
+from src.cleaning.secondary_functions.F_impute_weights_with_mean import imputar_weight_por_media
+from src.cleaning.secondary_functions.G_hierarchical_weight_nan_imputation import imputar_weight_nan_jerarquico
+from src.cleaning.secondary_functions.D_age_Calc import calcular_edad
 #---------------------------------------------
 #Funcion de limpieza especifica de los datos
 def limpieza_especifica(df, hoja_nombre):
@@ -52,6 +56,28 @@ def limpieza_especifica(df, hoja_nombre):
         if "vacuna" in df.columns:
             df["vacuna"] = df["vacuna"].str.strip().str.upper()
 
+    elif hoja == "mascotas":
+
+      #Calcular edad de las mascotas usando la funcion calcular_edad
+       df['age'] = df['birth_at'].apply(calcular_edad)
+
+      # Convertir el peso a Kg usando la funcion normalizacion_peso
+       df = normalizacion_peso(df) #
+        ## Imputacion de datos WEIGHT sesgados
+       df= imputar_weight_por_media(df)
+       ##Imputar valores Nan y 0.0
+       df = imputar_weight_nan_jerarquico(df)
+
+      ##Eliminacion de la columna photo, code
+       columnas_a_eliminar_mascotas = ["photo", "code", "name"] # Corrected indentation
+       df = df.drop(columns=[col for col in columnas_a_eliminar_mascotas if col in df.columns], errors='ignore') # Corrected indentation
+
+
+    elif hoja == "vacunas":
+        if "dosis" in df.columns:
+            df["dosis"] = df["dosis"].fillna(0).astype(int)
+        if "vacuna" in df.columns:
+            df["vacuna"] = df["vacuna"].str.strip().str.upper()
 
 
     # Agrega más hojas específicas según las necesidades...
